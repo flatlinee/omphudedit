@@ -14,12 +14,12 @@ Scheme
 		"TransparentBlack"		"0 0 0 128"
 		"Black"				"10 10 10 255" 
 		"Blank"				"0 0 0 0"
-		"FlatPrimary"			"255 255 255 255"
-		"FlatPrimaryLight"		"0 109 196 255"
-		"FlatPrimaryDark"		"0 69 86 255"
-		"FlatBlack"				"15 15 15 255"
-		"FlatBlackTrans"		"15 15 15 190"
-		"FlatButtonHover"		"12 52 85 128"
+		"OmpPrimary"			"255 255 255 255"
+		"OmpPrimaryLight"		"0 109 196 255"
+		"OmpPrimaryDark"		"0 69 86 255"
+		"OmpBlack"				"15 15 15 255"
+		"OmpBlackTrans"		"15 15 15 190"
+		"OmpButtonHover"		"0 193 63 128"
 		"ControlBlack"			"32 32 32 255"
 		
 	    "TFDarkBrown"               "60 56 53 255"
@@ -66,7 +66,7 @@ Scheme
 		Button.TextColor				"196 196 196 255"
 		Button.BgColor					"55 55 55 255"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"FlatButtonHover"
+		Button.ArmedBgColor				"OmpButtonHover"
 		Button.DepressedTextColor		"White"
 		Button.DepressedBgColor			"Blank"
 		Button.FocusBorderColor			"Blank"
@@ -74,7 +74,7 @@ Scheme
 		CheckButton.TextColor			"OffWhite"
 		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.HighlightFgColor	"FlatPrimary"
+		CheckButton.HighlightFgColor	"OmpPrimary"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor	"Blank"
 		CheckButton.Border1  			"Blank"
@@ -112,18 +112,18 @@ Scheme
 		
 		ListPanel.TextColor					"OffWhite"
 		ListPanel.BgColor					"TransparentBlack"
-		ListPanel.SelectedBgColor			"FlatPrimary"
+		ListPanel.SelectedBgColor			"OmpPrimary"
 		ListPanel.SelectedOutOfFocusBgColor	"100 100 100 128"
 		
 		MainMenu.TextColor			"White"
-		MainMenu.ArmedTextColor		"FlatPrimary"
+		MainMenu.ArmedTextColor		"OmpPrimary"
 		MainMenu.Inset				"32"
 		
 		Menu.TextInset					"6"
 		Menu.FgColor			"White"
 		Menu.BgColor					"17 17 17 255"
-		Menu.ArmedFgColor		"FlatPrimary"
-		Menu.ArmedBgColor				"FlatPrimary"
+		Menu.ArmedFgColor		"OmpPrimary"
+		Menu.ArmedBgColor				"OmpPrimary"
 		Menu.DividerColor		"BorderDark"
 		
 		ScrollBarButton.FgColor				"White"
@@ -144,7 +144,7 @@ Scheme
 		
 		TextEntry.TextColor			"OffWhite"
 		TextEntry.DisabledTextColor	"DullWhite"
-		TextEntry.SelectedBgColor	"FlatPrimary"
+		TextEntry.SelectedBgColor	"OmpPrimary"
 		
 		// Borrowed from CS:S SourceScheme
 		Frame.TitleTextInsetX			14
@@ -179,7 +179,7 @@ Scheme
 		RichText.TextColor				"OffWhite"
 		RichText.BgColor				"TransparentBlack"
 		RichText.SelectedTextColor		"Black"
-		RichText.SelectedBgColor		"FlatPrimary"
+		RichText.SelectedBgColor		"OmpPrimary"
 		ScrollBar.Wide					17
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
@@ -188,7 +188,7 @@ Scheme
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
-		SectionedListPanel.SelectedBgColor				"FlatPrimary"
+		SectionedListPanel.SelectedBgColor				"OmpPrimary"
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"100 100 100 128"
 		TextEntry.BgColor			"TransparentBlack"
@@ -199,7 +199,7 @@ Scheme
 		TextEntry.FocusEdgeColor	"0 0 0 196"
 		ToggleButton.SelectedTextColor	"White"
 		Tooltip.TextColor			"0 0 0 196"
-		Tooltip.BgColor				"FlatPrimary"
+		Tooltip.BgColor				"OmpPrimary"
 		TreeView.BgColor			"TransparentBlack"
 		WizardSubPanel.BgColor		"Blank"
 		MainMenu.DepressedTextColor	"150 150 150 128"
@@ -209,7 +209,7 @@ Scheme
 		Console.DevTextColor		"White"
 		NewGame.TextColor			"White"
 		NewGame.FillColor			"0 0 0 255"
-		NewGame.SelectionColor		"FlatPrimary"
+		NewGame.SelectionColor		"OmpPrimary"
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	
