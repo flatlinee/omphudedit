@@ -13,6 +13,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
+		"medal_width"		"0"
 		"avatar_width"		"57"
 		"name_width"		"94"
 		"status_width"		"15"
@@ -20,6 +21,11 @@
 		"class_width"		"15"
 		"score_width"		"25"
 		"ping_width"		"23"
+		
+		if_mvm
+		{
+			"name_width"	"70"
+		}
 	}
 	"BlueScoreBG"
 	{

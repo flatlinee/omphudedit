@@ -1361,7 +1361,7 @@
 		"ypos" "c-99"
 		"wide" "200"
 		"tall" "200"
-		"visible" "0"
+		"visible" "1"
 		"enabled" "1"
 		"textAlignment" "center"
 	}
@@ -1377,7 +1377,7 @@
 		"ypos" "c-96"
 		"wide" "200"
 		"tall" "200"
-		"visible" "0"
+		"visible" "1"
 		"enabled" "1"
 		"textAlignment" "center"
 	}

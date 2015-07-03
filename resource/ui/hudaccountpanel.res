@@ -5,7 +5,7 @@
 		"delta_item_x"			"88"
 		"delta_item_start_y"	"10"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"125 225 30 255"
+		"PositiveColor"			"OmpHighlights"
 		"NegativeColor"			"225 30 30 255"
 		"delta_lifetime"		"1"
 		"delta_item_font"		"Futura16"

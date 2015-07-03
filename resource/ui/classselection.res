@@ -74,7 +74,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -156,7 +156,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -215,7 +215,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -274,7 +274,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -356,7 +356,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -415,7 +415,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -474,7 +474,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -556,7 +556,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -615,7 +615,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -674,7 +674,7 @@
 		"defaultFgColor_override" "OmpText"
 		"armedFgColor_override" "OmpText"
 		"depressedFgColor_override" "OmpText"
-		"selectedFgColor_override" "125 225 30 255"
+		"selectedFgColor_override" "OmpHighlights"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -749,8 +749,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpHighlights"
+		"depressedFgColor_override" "OmpHighlights"
 		"selectedFgColor_override" "OmpText"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
