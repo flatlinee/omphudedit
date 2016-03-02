@@ -390,7 +390,7 @@
 				"zpos"			"1"
 				"wide"			"14"
 				"tall"			"14"
-				"visible"		"1"
+				"visible"		"0"
 				"enabled"		"1"
 				"scaleImage"	"1"
 			}
@@ -406,7 +406,7 @@
 		"zpos"			"11"
 		"wide"			"100"
 		"tall"			"31"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"PaintBackgroundType"	"0"
 
