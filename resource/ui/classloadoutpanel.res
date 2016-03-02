@@ -47,11 +47,13 @@
 			"paintborder"	"1"
 			"border"		"NoBorder"
 			
-			"model_ypos"	"5"
-			"model_tall"	"55"
-			"text_ypos"		"50"
-			"text_center"	"1"
-			"name_only"		"1"
+			"model_center_x"	"1"
+			"model_ypos"		"5"			
+			"model_tall"		"55"
+			"model_wide"		"82"
+			"text_ypos"			"54"
+			"text_center"		"1"
+			"name_only"			"1"
 			
 			"attriblabel"
 			{

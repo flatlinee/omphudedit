@@ -131,8 +131,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpHighlights"
+		"depressedFgColor_override" "OmpHighlights"
 		"selectedFgColor_override" "OmpText"
 	}
 	

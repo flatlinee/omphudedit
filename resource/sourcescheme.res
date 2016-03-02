@@ -1,10 +1,9 @@
+//SourceScheme.res edited by flatline, originally by:
+// Doodles - DoodleHUD - http://doodlesstuff.com
+//
 #base "SourceSchemeBase.res"
-
 Scheme
 {
-    //////////////////////// COLORS ///////////////////////////
-	// color details
-	// this is a list of all the colors used by the scheme
 	Colors
 	{
 	
@@ -42,8 +41,8 @@ Scheme
 
 	    "TFMediumBrown"		"69 64 58 255"
 
-	    "QuickListBGDeselected"		"69 64 58 255"
-	    "QuickListBGSelected"               "131 121 104 150"
+	    "QuickListBGDeselected"		"0 0 0 0"
+	    "QuickListBGSelected"               "0 193 63 225"
 	    
 	    "Blank"				"0 0 0 0"
 	    
@@ -103,7 +102,7 @@ Scheme
 		FrameTitleBar.DisabledTextColor	"255 255 255 192"
 		
 		Label.TextDullColor				"DullWhite"
-		Label.TextColor					"OffWhite"
+		Label.TextColor					"White"
 		Label.TextBrightColor			"White"
 		Label.SelectedTextColor			"White"
 		Label.BgColor					"Blank"
@@ -213,6 +212,10 @@ Scheme
 		NewGame.DisabledColor		"128 128 128 196"
 	}
 	
+	//
+	//////////////////// BORDERS //////////////////////////////
+	//
+	// describes all the border types
 	Borders
 	{
 		BaseBorder		SubtleBorder
@@ -283,14 +286,14 @@ Scheme
 				}
 			}
 		}
-	
+	}
 	Fonts
 	{
 		"MainMenuFont"
 		{
 			"1"	[$WIN32]
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -309,10 +312,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Heavy"
 				"tall"		"35"
-				"tall_lodef"	"40"
-				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -322,7 +323,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"weight"	"500"
 			}
@@ -332,7 +333,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -340,7 +341,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"Tahoma"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -348,7 +349,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"Tahoma"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -357,7 +358,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
+				"name"		"FuturaStd-Medium"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -366,7 +367,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"Tahoma"
+				"name"		"FuturaStd-Medium"
 				"tall"		"19"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -380,8 +381,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"FuturaStd-Medium" [!$OSX]
+				"name"		"FuturaStd-Medium" [$OSX]
 				"weight"		"1500"
 				"tall"			"16" [!$OSX]
 				"tall"			"18" [$OSX]
@@ -393,8 +394,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana Bold" [$OSX]
+				"name"		"FuturaStd-Medium" [!$OSX]
+				"name"		"FuturaStd-Medium" [$OSX]
 				"weight"		"1500"
 				"tall"			"18" [!$OSX]
 				"tall"			"19" [$OSX]
@@ -406,17 +407,15 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Arial" [!$OSX]
-				"name"		"Verdana" [$OSX]
+				"name"		"FuturaStd-Medium" [!$OSX]
+				"name"		"FuturaStd-Medium" [$OSX]
 				"weight"		"1000"
 				"tall"			"14" [!$OSX]
 				"tall"			"12" [$OSX]
 				"antialias"		"1" [!$OSX]
 			}
 		}
-
 	}
-	
 	CustomFontFiles
 	{
 		"9"
@@ -431,6 +430,16 @@ Scheme
 			{
 				"range" "0x0000 0xFFFF"
 			}
+		}
+		"10"
+		{
+			"font" "resource/FuturaStd-Medium.otf"
+			"name" "FuturaStd-Medium"
+		}
+		"11"
+		{
+			"font" "resource/FuturaStd-Heavy.otf"
+			"name" "FuturaStd-Heavy"
 		}
 	}
 }

@@ -199,6 +199,7 @@
 			"tall"			"300"
 			"autoResize"	"1"
 			"pinCorner"		"0"
+			"bgcolor_override"	"30 30 30 255"
 		}
 
 		"ConnectButton"

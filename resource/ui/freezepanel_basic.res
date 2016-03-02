@@ -164,7 +164,7 @@
 		"xpos"			"r210"
 		"ypos"			"c113"
 		"zpos"			"1"
-		"wide"			"140"
+		"wide"			"200"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
@@ -179,7 +179,7 @@
 		
 		"text_xpos"		"0"
 		"text_ypos"		"20"
-		"text_wide"		"140"
+		"text_wide"		"200"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
