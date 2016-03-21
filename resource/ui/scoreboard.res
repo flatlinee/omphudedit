@@ -96,10 +96,10 @@
 		"enabled"		"1"
 		"fillcolor"		"OmpDarkBG"
 	}
-	"BlueTeamLabel"
+	"BlueTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabel1"
 		"font"			"Futura32"
 		"fgcolor"		"OmpText"
 		"labelText"		"%blueteamname%"
@@ -188,10 +188,10 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabel1"
 		"font"			"Futura32"
 		"fgcolor"		"OmpText"
 		"labelText"		"%redteamname%"

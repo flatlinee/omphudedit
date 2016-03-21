@@ -1635,7 +1635,7 @@ Scheme
 				"antialias" "1"
 			}
 		}
-				"MatchSummaryTeamScores"
+		"MatchSummaryTeamScores"
 		{
 			"1"
 			{
@@ -1658,7 +1658,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
 		"ControlPointTimer"
 		{
 			"1"
@@ -4193,7 +4192,7 @@ Scheme
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"0"	
 		}
-		TFFatLineBorderBlueBGOpaque
+				TFFatLineBorderBlueBGOpaque
 		{
 			"bordertype"	"scalable_image"
 			"backgroundtype"	"2"

@@ -16,25 +16,6 @@
 		"proportionaltoparent" "1"
 	}
 
-	"PageTitle"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"PageTitle"
-		"font"			"Futura16"
-		"labelText"		"Friends"
-		"textAlignment"	"center"
-		"xpos"			"10"
-		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"f0"
-		"tall"			"20"
-		"autoResize"	"1"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fgcolor_override"	"255 255 255 255"
-		"proportionaltoparent" "1"
-	}
 
 	"Line"
 	{
@@ -42,7 +23,7 @@
 		"fieldName"			"Line"
 		"xpos"				"10"
 		"ypos"				"18"
-		"wide"				"240"
+		"wide"				"230"
 		"tall"				"2"
 		"visible"			"1"
 		"proportionaltoparent" "1"
@@ -50,14 +31,14 @@
 		"bgcolor_override"	"OmpHighlights"
 	}
 
-	"ScoresContainer"
+	"ScoreListScroller"
 	{
-		"ControlName"		"EditablePanel"
-		"fieldName"			"ScoresContainer"
-		"xpos"				"23"
+		"ControlName"		"ScrollableEditablePanel"
+		"fieldName"			"ScoreListScroller"
+		"xpos"				"3"
 		"ypos"				"30"
-		"wide"				"230"
-		"tall"				"200"
+		"wide"				"240"
+		"tall"				"230"
 		"visible"			"1"
 		"proportionaltoparent" "1"
 		"asynchandling"		"hide"

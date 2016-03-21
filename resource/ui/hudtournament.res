@@ -57,7 +57,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
+			"team2_player_delta_x"			"55"
 			"team2_player_base_offset_x"	"5"
 		}
 		
@@ -1034,14 +1034,14 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"2"
 			"wide"			"147"
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
 			"border"		"TFFatLineBorderBlueBGOpaque"
 		}
@@ -1111,15 +1111,15 @@
 		{
 			"ControlName"		"EditablePanel"
 			"fieldName"		"RedTeamBG"
-			"xpos"			"0"
-			"ypos"			"10"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"2"
 			"wide"			"147"
 			"tall"			"36"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"0"
-			"enabled"		"1"
+			"enabled"		"0"
 			"border"		"TFFatLineBorderRedBGOpaque"
 		}
 		"RedTeamImage"
