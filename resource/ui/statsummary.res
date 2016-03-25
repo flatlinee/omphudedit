@@ -61,7 +61,7 @@
         "ControlName"	"CExLabel"
         "fieldName"		"OmpLabel"
         "font"			"Futura40"
-        "labelText"		"Omphud"
+        "labelText"		"omphud"
         "textAlignment"	"west"
         "xpos"			"5"
         "ypos"			"410"

@@ -60,7 +60,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"56 53 49 255"
+			"fgcolor"		"255 255 255 255"
 
 			"proportionaltoparent"	"1"
 		}
@@ -85,7 +85,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Futura12"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
 		"xpos"			"90"
@@ -96,14 +96,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"TextDescriptionLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Futura12"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"90"
@@ -114,14 +114,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"ViewerCountLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"Futura12"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"90"
@@ -132,7 +132,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"56 53 49 255"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"Stream_URLButton"
@@ -156,7 +156,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"border_armed"		"TeamMenuBorder"
+		"border_armed"		"ButtonHover"
 			
 		"defaultFgColor_override" "0 0 0 0"
 		"defaultBgColor_override" "0 0 0 0"

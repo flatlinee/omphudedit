@@ -30,7 +30,8 @@
 			"percentage_health_med"	"0.6"
 			"color_bar_health_low"	"191 58 58 255"
 			"percentage_health_low"	"0.3"
-			"color_portrait_blend_dead"	"96 96 96 255"
+			"color_portrait_blend_dead_red"	"255 255 255 255"
+			"color_portrait_blend_dead_blue" "255 255 255 255"
 			
 			"playername"
 			{
@@ -202,11 +203,11 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"DefaultSmall"
-				"xpos"			"3"
+				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"16"
-				"tall"			"17"
+				"wide"			"50"
+				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -247,6 +248,20 @@
 				"labelText"		"%specindex%"
 				"textAlignment"	"north-west"
 				//"fgcolor"		"235 226 202 255"
+			}
+			"DeathPanel"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"DeathPanel"
+				"xpos"			"9999"
+				"ypos"			"9999"
+				"zpos"			"0"
+				"wide"			"19"
+				"tall"			"19"
+				"visible"		"0"
+				"enabled"		"0"
+				"image"			"../HUD/comp_player_status"	
+				"scaleImage"	"1"	
 			}
 		}
 	}

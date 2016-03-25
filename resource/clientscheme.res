@@ -2830,6 +2830,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"FuturaHeavy24"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"24"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"FuturaHeavyOutline20"
 		{
 			"1"
@@ -3072,6 +3082,36 @@ Scheme
 				"outline"	"1"
 			}
 		}
+		"Sosa Verysmall"
+		{
+			"1"
+			{
+			"name"			"Sosa Regular"
+			"tall"			"14"
+			"antialias"		"1"
+			}
+		}
+		
+		"Sosa Small"
+		{
+			"1"
+			{
+			"name"			"Sosa Regular"
+			"tall"			"18"
+			"antialias"		"1"
+			}
+		}
+		
+		"Sosa Regular"
+		{
+			"1"
+			{
+			"name"			"Sosa Regular"
+			"tall"			"28"
+			"antialias"		"1"
+			}
+		}
+		
 		"CrosshairsOutline8"
 		{
 			"1"
@@ -6156,5 +6196,10 @@ Scheme
 			"name" "Blocks"
 		}
 		"12" "resource/ocra.ttf"
+		"13" //Sosa
+		{
+			"font" "resource/sosa-regular-webfont.ttf"
+			"name" "Sosa Regular"
+		}
 	}
 }
