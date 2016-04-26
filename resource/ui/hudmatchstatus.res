@@ -49,7 +49,7 @@
 		}
 	}	
 	
-		"CountdownBG"
+	"CountdownBG"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"CountdownBG"
