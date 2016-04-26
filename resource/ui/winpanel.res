@@ -12,36 +12,35 @@
 
 		"BlueScoreBG"
 		{
-			"ControlName"		"ImagePanel"
+			"ControlName"		"EditablePanel"
 			"fieldName"		"BlueScoreBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"240"
-			"tall"			"50"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"../hud/winpanel_blue_bg_team"
-			"image_lodef"	"../hud/winpanel_blue_bg_team_lodef"
-			"scaleImage"		"1"
-		}
-		"RedScoreBG"
-		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"RedScoreBG"
-			"xpos"			"9999"
-			"ypos"			"9999"
-			"wide"			"240"
+			"xpos"			"50"
+			"ypos"			"15"
+			"wide"			"135"
 			"tall"			"40"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
+			"visible"		"0"
 			"enabled"		"1"
-			"image"			"../hud/winpanel_red_bg_team"
-			"image_lodef"	"../hud/winpanel_red_bg_team_lodef"
-			"scaleImage"		"1"
+			
+			"border"		"TFFatLineBorderBlueBGMoreOpaque"
 		}
+		"RedScoreBG"
+		{
+			"ControlName"	"EditablePanel"
+			"fieldName"		"RedScoreBG"
+			"xpos"			"197"
+			"ypos"			"15"
+			"wide"			"135"
+			"tall"			"40"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+
+			"border"		"TFFatLineBorderRedBGMoreOpaque"
+		}
+		
 		"BlueScoreBG2"
 		{
 			"ControlName"		"ScalableImagePanel"
@@ -196,18 +195,20 @@
 		}							
 
 	}
-	"WinPanelBG"
+	"WinPanelBGBorder"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"WinPanelBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"ControlName"		"EditablePanel"
+		"fieldName"		"WinPanelBGBorder"
+		"xpos"			"cs-0.5"
+		"ypos"			"70"
 		"zpos"			"0"
-		"wide"			"496"
-		"tall"			"226"
-		"visible"		"1"
+		"wide"			"p0.94"
+		"tall"			"185"
+		"visible"		"0"
 		"enabled"		"1"
 		"scaleImage"		"1"	
+		"border"		"TFFatLineBorderBlueBG"
+		"proportionaltoparent"	"1"
 	}
 	"WinPanelBG2"
 	{
