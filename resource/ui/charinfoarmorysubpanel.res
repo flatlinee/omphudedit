@@ -332,7 +332,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Futura12"
 		"labelText"		"%thumbnailpage%"
 		"textAlignment"	"center"
 		"xpos"			"c-60"
