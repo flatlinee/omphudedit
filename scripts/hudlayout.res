@@ -463,7 +463,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "8" // omp -- -2 spacing fix.
+		"ypos"	 "33" // omp -- -2 spacing fix.
 		"wide"	 "630"
 		"tall"	 "470"
 
@@ -481,7 +481,7 @@
 		"IconColor"		"255 255 255 255"
 		"LocalPlayerColor"	"0 0 0 255"
 
-		"BaseBackgroundColor"	"OmpDarkBG"
+		"BaseBackgroundColor"	"25 25 25 225"
 		"LocalBackgroundColor"	"OmpWhiteBG"
 	}
 
@@ -956,7 +956,7 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-130"
-		"ypos"			"c88"
+		"ypos"			"c98"
 		"zpos"			"1"
 		"wide"			"260"
 		"tall"			"108"
@@ -969,9 +969,22 @@
 		"visible" 		"1"
 		"enabled" 		"1"
 		"xpos"			"c-130"
-		"ypos"			"c88"
+		"ypos"			"c98"
 		"zpos"			"1"
 		"wide"			"260"
+		"tall"			"108"
+		"PaintBackgroundType"	"0"
+	}
+	
+		"HudEurekaEffectTeleportMenu"
+	{
+		"fieldName" 	"HudEurekaEffectTeleportMenu"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-66"
+		"ypos"			"c98"
+		"zpos"			"1"
+		"wide"			"132"
 		"tall"			"108"
 		"PaintBackgroundType"	"0"
 	}
@@ -1101,8 +1114,8 @@
 		"fieldName"				"HudStopWatch"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"0"
+		"xpos"					"c-63"
+		"ypos"					"35"
 		"wide"					"125"
 		"tall"					"20"
 	}
@@ -1361,7 +1374,7 @@
 		"ypos" "c-99"
 		"wide" "200"
 		"tall" "200"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"textAlignment" "center"
 	}
@@ -1377,7 +1390,7 @@
 		"ypos" "c-96"
 		"wide" "200"
 		"tall" "200"
-		"visible" "1"
+		"visible" "0"
 		"enabled" "1"
 		"textAlignment" "center"
 	}
