@@ -9,7 +9,7 @@
 		"zpos"			"0"
 		"wide"			"f0"
 		"tall"			"f0"
-		"visible"		"1"
+		"visible"		"0"
 		"proportionaltoparent"	"1"
 
 		"bgcolor_override"	"0 0 0 50"
@@ -96,14 +96,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"OmpHighlights"
 	}
 
 	"TextDescriptionLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"Futura12"
+		"font"			"Futura10"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"90"
@@ -121,18 +121,18 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"Futura12"
+		"font"			"Futura9"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"90"
-		"ypos"			"31"
+		"ypos"			"38"
 		"wide"			"205"
 		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"OmpMouseover"
 	}
 
 	"Stream_URLButton"

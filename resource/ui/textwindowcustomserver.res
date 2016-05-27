@@ -123,8 +123,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "OmpHighlights"
-		"depressedFgColor_override" "OmpHighlights"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	

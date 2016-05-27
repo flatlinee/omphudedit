@@ -50,9 +50,9 @@
 		
 		if_readymode
 		{
-			"xpos"							"c-320"
+			"xpos"							"c-350"
 			"ypos"							"0"
-			"wide"							"640"
+			"wide"							"700"
 			"tall"							"480"
 
 			"team1_player_base_y"			"66"
@@ -350,42 +350,7 @@
 				"tall"		"35"
 				"visible"	"0"
 			}
-		}
-		
-		if_mvm
-		{
-			"xpos"					"c-250"
-			"ypos"					"0"
-			"wide"					"500"
-			"tall"					"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-		}
-		if_competitive
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}
-		if_readymode
-		{
-			"xpos"							"c-320"
-			"ypos"							"0"
-			"wide"							"640"
-			"tall"							"480"
-
-			"team1_player_base_y"			"66"
-			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"52"
-			"team2_player_base_offset_x"	"5"
-		}			
+		}		
 	}
 
 	"HudTournamentBG"
@@ -413,7 +378,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"220"
+			"xpos"			"250"
 		}
 	}
 	"HudTournamentBG1"
@@ -441,7 +406,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"220"
+			"xpos"			"250"
 		}
 	}
 	"HudTournamentBG2"
@@ -469,7 +434,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"220"
+			"xpos"			"250"
 		}
 	}
 	"TournamentLabel"
@@ -501,7 +466,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"220"
+			"xpos"			"250"
 		}
 	}
 
@@ -536,7 +501,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"220"
+			"xpos"			"250"
 		}
 	}
 	"TournamentBLUELabel"
@@ -568,7 +533,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"222"
+			"xpos"			"252"
 		}
 	}
 	"TournamentBLUEStateLabel"
@@ -600,7 +565,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"270"
+			"xpos"			"300"
 		}
 	}
 
@@ -635,7 +600,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"320"
+			"xpos"			"350"
 		}
 	}
 	"TournamentREDLabel"
@@ -667,7 +632,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"370"
+			"xpos"			"400"
 		}
 	}
 	"TournamentREDStateLabel"
@@ -699,7 +664,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"322"
+			"xpos"			"352"
 		}
 	}
 	"TournamentConditionLabel"
@@ -731,7 +696,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"220"
+			"xpos"			"250"
 		}
 		
 	}
@@ -798,7 +763,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"195"
+			"xpos"			"225"
 			"zpos"			"3"
 		}
 	}
@@ -859,6 +824,73 @@
 		{
 			"xpos"			"cs-0.5"
 			"ypos"			"150"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+		"CountdownLabel"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"CountdownLabel"
+		"font"			"Futura24"
+		"xpos"			"230"
+		"ypos"			"r55"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"5"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.5"
+			"ypos"			"cs-0.1"
+			"fgcolor"		"TanLight"
+			"font"			"Futura24"
+		}
+
+		if_readymode
+		{
+			"xpos"			"300"
+			"ypos"			"130"
+		}
+	}
+	
+	"CountdownLabelShadow"
+	{	
+		"ControlName"		"CExLabel"
+		"fieldName"		"CountdownLabelShadow"
+		"font"			"Futura24"
+		"xpos"			"231"
+		"ypos"			"r54"
+		"wide"			"40"
+		"tall"			"40"
+		"zpos"			"4"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+		"wrap"			"0"
+		"labelText"		"%tournamentstatelabel%"
+		"textAlignment"		"center"
+		"fgcolor"		"Black"
+		"proportionaltoparent"	"1"
+
+		if_competitive
+		{
+			"xpos"			"cs-0.48"
+			"ypos"			"cs-0.08"
+			"font"			"Futura24"
 		}
 
 		if_readymode

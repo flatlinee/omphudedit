@@ -14,6 +14,7 @@
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"settitlebarvisible"	"0"
+		"bgcolor_override"	"0 0 0 150"
 	}
 	
 	"MainBG"
@@ -32,15 +33,31 @@
 		"fillcolor"		"OmpDarkBG"
 	}
 	
+	"HeaderBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG"
+		"xpos"			"c-180"
+		"ypos"			"c-120"
+		"zpos"			"-1"
+		"wide"			"360"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"OmpHighlights"
+	}
+	
 	"TFMessageTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TFMessageTitle"
 		"xpos"			"c-170"
-		"ypos"			"c-110"
+		"ypos"			"c-120"
 		"zpos"			"1"
 		"wide"			"340"
-		"tall"			"16"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -85,10 +102,10 @@
 		"ControlName"		"HTML"
 		"fieldName"		"HTMLMessage"
 		"xpos"			"c-170"
-		"ypos"			"c-110"
+		"ypos"			"c-84"
 		"zpos"			"1"
 		"wide"			"340"
-		"tall"			"194"
+		"tall"			"168"
 		"autoResize"	"1"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -123,8 +140,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "OmpHighlights"
-		"depressedFgColor_override" "OmpHighlights"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	

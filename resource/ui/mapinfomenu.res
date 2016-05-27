@@ -13,6 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 150"
 	}
 	
 	"MainBG"
@@ -31,15 +32,31 @@
 		"fillcolor"		"OmpDarkBG"
 	}
 	
+	"HeaderBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG"
+		"xpos"			"c-180"
+		"ypos"			"c-120"
+		"zpos"			"-1"
+		"wide"			"360"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"OmpHighlights"
+	}
+	
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-170"
-		"ypos"			"c-110"
+		"ypos"			"c-120"
 		"zpos"			"1"
 		"wide"			"340"
-		"tall"			"16"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -55,7 +72,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-170"
-		"ypos"			"c-94"
+		"ypos"			"c-98"
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"14"
@@ -131,8 +148,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "OmpHighlights"
-		"depressedFgColor_override" "OmpHighlights"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	
@@ -160,8 +177,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	
@@ -188,8 +205,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	

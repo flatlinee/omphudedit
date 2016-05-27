@@ -19,7 +19,7 @@ Scheme
 		"OmpBlack"				"15 15 15 255"
 		"OmpBlackTrans"		"15 15 15 190"
 		"OmpButtonHover"		"0 193 63 128"
-		"ControlBlack"			"32 32 32 255"
+		"ControlBlack"			"23 27 30 255"
 		
 	    "TFDarkBrown"               "60 56 53 255"
 	    "TFDarkBrownTransparent"    "60 56 53 190"
@@ -60,7 +60,7 @@ Scheme
 		Border.Bright					"0 0 0 0"
 		Border.Dark						"0 0 0 0"
 		Border.Selection				"0 0 0 0"default/selected button
-		Border.DarkSolid				"32 32 32 255"
+		Border.DarkSolid				"23 27 30 255"
 
 		Button.TextColor				"196 196 196 255"
 		Button.BgColor					"55 55 55 255"
@@ -93,7 +93,7 @@ Scheme
 		RadioButton.ArmedTextColor	"TFTextMedium"
 		
 		Frame.BgColor					"ControlBlack"
-		Frame.OutOfFocusBgColor			"32 32 32 100"
+		Frame.OutOfFocusBgColor			"18 22 25 100"
 		FrameGrip.Color1				"65 65 65 255"
 		FrameGrip.Color2				"0 0 0 0"
 		FrameTitleButton.FgColor		"200 200 200 196"

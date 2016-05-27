@@ -26,8 +26,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"ypos"			"0"
-		"zpos"			"4"
+		"ypos"			"9999"
+		"zpos"			"9999"
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
@@ -38,8 +38,6 @@
 		// the xpos value of status icons is now ignored, and they are placed
 		// a certain offset away from the health image. therefore, we place
 		// the image in a convenient location, and make it invisible.
-		"xpos"			"39"
-		"xpos_minmode"	"23"
 		"alpha"			"0"
 	}		
 	"PlayerStatusHealthImageBG"
@@ -60,8 +58,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"26"
-		"ypos"			"26"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"80"
@@ -70,8 +68,8 @@
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 		
-		"xpos_minmode"	"20"
-		"ypos_minmode"	"20"
+		"xpos_minmode"	"9999"
+		"ypos_minmode"	"9999"
 		"wide_minmode"	"52"
 		"tall_minmode"	"51" // omp -- -1 alignment fix.
 	}

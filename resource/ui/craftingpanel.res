@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"crafting_panel"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"30"
 		"wide"			"f0"
 		"tall"			"400"
 		"zpos"			"501"
@@ -16,9 +16,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"18 22 25 255"
+		"infocus_bgcolor_override" "18 22 25 255"
+		"outoffocus_bgcolor_override" "18 22 25 255"
 
 		"item_ypos"						"85"
 		"output_item_ypos"				"255"		
@@ -105,7 +105,7 @@
 					"autoResize"	"0"
 					"PaintBackgroundType"	"1"
 					"border"			"NoBorder"
-					"bgcolor_override"	"35 35 35 255"
+					"bgcolor_override"	"28 32 35 255"
 				}
 			}
 		}
@@ -290,6 +290,15 @@
 			"Command"		"craft"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border"	"NoBorder"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"depressedFgColor_override" "TanLight"
+			"defaultBgColor_override" "18 22 25 255"
+			"armedBgColor_override"	  "50 50 50 255"
+			"depressedBgColor_override"	"50 50 50 255"
+			"border_default"	"NoBorder"
 		}			
 		
 		"FreeAccountLabel"

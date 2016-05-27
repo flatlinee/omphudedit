@@ -14,13 +14,13 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"18 22 25 255"
+		"infocus_bgcolor_override" "18 22 25 255"
+		"outoffocus_bgcolor_override" "18 22 25 255"
 		
 		"item_xpos_offcenter_a"	"-310"
 		"item_xpos_offcenter_b"	"165"
-		"item_ypos"		"60"
+		"item_ypos"		"92"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
 		
@@ -29,7 +29,7 @@
 		"item_backpack_ydelta"			"3"
 
 		"button_xpos_offcenter"	"175"		
-		"button_ypos"	"85"
+		"button_ypos"	"117"
 		"button_ydelta"	"80"
 		"button_override_delete_xpos" "0"
 		
@@ -99,14 +99,14 @@
 		"font"			"HudFontSmallestBold"
 		"labelText"		">>"
 		"textAlignment"	"west"
-		"xpos"			"c-300"
-		"ypos"			"20"
+		"xpos"			"9999"
+		"ypos"			"52"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"15"
 		"autoResize"	"1"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"fgcolor_override" "200 80 60 255"
 	}
@@ -114,17 +114,17 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"Futura32"
+		"font"			"Futura24"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"west"
-		"xpos"			"c-280"
-		"ypos"			"10"
+		"xpos"			"9999"
+		"ypos"			"42"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"35"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 	}
 	
@@ -150,7 +150,7 @@
 		"fieldName"		"classmodelpanel"
 		
 		"xpos"			"c-135"
-		"ypos"			"20"
+		"ypos"			"52"
 		"zpos"			"-1"		
 		"wide"			"270"
 		"tall"			"340"
@@ -161,7 +161,7 @@
 		
 		"render_texture"	"0"
 		"fov"			"30"
-		"allow_rot"		"1"
+		"allow_manip"		"1"
 				
 		"model"
 		{
@@ -270,7 +270,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
+			"bgcolor_override"	"28 32 35 255"
 			
 			"attriblabel"
 			{
@@ -298,7 +298,7 @@
 		"fieldName"		"PassiveAttribsLabel"
 		"font"			"ItemFontAttribLarge"
 		"xpos"			"c-135"
-		"ypos"			"120"
+		"ypos"			"152"
 		"zpos"			"0"	
 		"wide"			"270"
 		"tall"			"240"
@@ -477,7 +477,7 @@
 		"fieldName"		"CharacterLoadoutButton"
 		"labelText"		""
 		"xpos"			"c-28"
-		"ypos"			"c-210"
+		"ypos"			"c-178"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"
@@ -516,7 +516,7 @@
 		"fieldName"		"TauntLoadoutButton"
 		"labelText"		""
 		"xpos"			"c-1"
-		"ypos"			"c-210"
+		"ypos"			"c-178"
 		"zpos"			"2"
 		"wide"			"25"
 		"tall"			"25"

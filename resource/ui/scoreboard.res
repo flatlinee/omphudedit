@@ -94,7 +94,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"25 25 25 225"
 	}
 	"BlueTeamLabel1"
 	{

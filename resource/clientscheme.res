@@ -24,17 +24,17 @@ Scheme
 		
 		"OmpLightBG"		"30 30 30 125"
 		"OmpMediumBG"		"30 30 30 175"
-		"OmpDarkBG"			"30 30 30 225"
+		"OmpDarkBG"			"18 22 25 225"
 		"OmpDarkerBG"		"30 30 30 250"
 		"OmpDarkestBG"		"30 30 30 255"
 		"OmpWhiteBG"		"225 225 225 225"
 		
 		"OmpHP"				"255 255 255 255"
 		"OmpHPBuff"			"0 193 63 255"
-		"OmpHPLow"			"255 200 30 255"
+		"OmpHPLow"			"255 51 51 255"
 		"OmpSpecHP"			"255 255 255 255"
 		"OmpSpecHPBuff"		"0 193 63 255"
-		"OmpSpecHPLow"		"255 200 30 255"
+		"OmpSpecHPLow"		"255 51 51 255"
 		
 		"OmpAmmoClip"		"255 255 255 255"
 		"OmpAmmoReserve"	"0 193 63 255"
@@ -47,16 +47,17 @@ Scheme
 		"OmpAmmoReserveLow2"	"200 30 30 255"
 		
 		"OmpHealNumbers"	"0 193 63 255"
-		"OmpDamageNumbers"	"255 255 30 255"
+		"OmpDamageNumbers"	"255 195 0 255"
 		
 		"OmpMeterLabel"		"125 125 125 255"
-		"OmpMedicCharge1"	"0 193 63 255"
-		"OmpMedicCharge2"	"0 193 63 255"
+		"OmpMedicCharge1"	"183 216 255 255"
+		"OmpMedicCharge2"	"183 216 255 255"
 		
-		"OmpChargeAmount"	"30 225 225 255"
-		"OmpRespawnTime"	"255 30 255 255"
+		"OmpChargeAmount"	"0 193 63 255"
+		"OmpRespawnTime"	"255 51 51 255"
 		
 		"OmpHighlights"		"0 193 63 255"
+		"OmpMouseover"		"41 112 69 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -279,13 +280,13 @@ Scheme
 		Button.DepressedTextColor		"TanLight"
 		Button.DepressedBgColor			"50 50 50 255"
 
-		CheckButton.TextColor			"Yellow"
-		CheckButton.SelectedTextColor	"Yellow"
+		CheckButton.TextColor			"White"
+		CheckButton.SelectedTextColor	"White"
 		CheckButton.BgColor				"TransparentBlack"
-		CheckButton.Border1  			"Yellow" 		// the left checkbutton border
-		CheckButton.Border2  			"Yellow"		// the right checkbutton border
-		CheckButton.Check				"Yellow"		// color of the check itself
-		CheckButton.HighlightFgColor	"Yellow"
+		CheckButton.Border1  			"White" 		// the left checkbutton border
+		CheckButton.Border2  			"White"		// the right checkbutton border
+		CheckButton.Check				"White"		// color of the check itself
+		CheckButton.HighlightFgColor	"White"
 		
 		ComboBoxButton.ArrowColor		"TanLight"
 		ComboBoxButton.ArmedArrowColor	"TanLight"
@@ -808,7 +809,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -821,7 +822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -857,7 +858,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -891,7 +892,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -902,7 +903,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -951,7 +952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -962,7 +963,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -973,7 +974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -1019,7 +1020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -1030,7 +1031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -1041,7 +1042,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -1052,7 +1053,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -1074,7 +1075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -1920,7 +1921,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1930,7 +1931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -2016,7 +2017,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -2544,7 +2545,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -2555,7 +2556,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2579,7 +2580,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2607,7 +2608,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -2618,7 +2619,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Build"
+				"name"		"FuturaStd-Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -2786,6 +2787,16 @@ Scheme
 			{
 				"name"		"FuturaStd-Medium"
 				"tall"		"60"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
+		"FuturaHeavy12"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Heavy"
+				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -6154,7 +6165,7 @@ Scheme
 		"6" 
 		{
 			"font" "resource/TF2Build.ttf"
-			"name" "TF2 Build"
+			"name" "FuturaStd-Medium"
 			"russian"
 			{
 				"range" "0x0000 0xFFFF"
