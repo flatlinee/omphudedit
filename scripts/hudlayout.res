@@ -1,5 +1,26 @@
 "Resource/HudLayout.res"
 {
+
+	//to enable crosshair, change visible to 1
+	//refer to crosshairs.png in root for labeltexts for xhairs
+	//also visit hudanimations_omp.txt to activate damage flash
+	
+	"OmpCrosshair"
+	{
+		"controlName" 	"CExLabel"
+		"fieldName" 	"OmpCrosshair"
+		"font" 			"Crosshairs32"
+		"fgcolor" 		"255 0 255 255"
+		"labelText" 	"m"
+		"xpos" 			"c-100"
+		"ypos" 			"c-103"
+		"wide" 			"200"
+		"tall" 			"200"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"textAlignment" "center"
+	}
+
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -1330,71 +1351,6 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
-
-	"OmpCrosshairPlus"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairPlus"
-		"font" "SymbolSharp24"
-		"fgcolor" "255 0 255 255"
-		"labelText" "+"
-		"xpos" "c-100"
-		"ypos" "c-103"
-		"wide" "200"
-		"tall" "200"
-		"visible" "0"
-		"enabled" "0"
-		"textAlignment" "center"
-	}
-
-	"OmpCrosshairPlusSmall"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairPlusSmall"
-		"font" "CrosshairsSharp15"
-		"fgcolor" "255 0 255 255"
-		"labelText" "2"
-		"xpos" "c-101"
-		"ypos" "c-100"
-		"wide" "200"
-		"tall" "202"
-		"visible" "0"
-		"enabled" "0"
-		"textAlignment" "center"
-	}
-	
-	"OmpCrosshairDot"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairDot"
-		"font" "Crosshairs22"
-		"fgcolor" "0 255 0 255"
-		"labelText" "3"
-		"xpos" "c-103"
-		"ypos" "c-99"
-		"wide" "200"
-		"tall" "200"
-		"visible" "0"
-		"enabled" "1"
-		"textAlignment" "center"
-	}
-
-	"OmpCrosshairCircle"
-	{
-		"controlName" "CExLabel"
-		"fieldName" "OmpCrosshairCircle"
-		"font" "Crosshairs32"
-		"fgcolor" "0 255 0 255"
-		"labelText" "9"
-		"xpos" "c-100"
-		"ypos" "c-96"
-		"wide" "200"
-		"tall" "200"
-		"visible" "0"
-		"enabled" "1"
-		"textAlignment" "center"
-	}
-
 
 	"CTFKillStreakNotice"
 	{

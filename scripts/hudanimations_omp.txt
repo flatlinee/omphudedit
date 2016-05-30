@@ -1,6 +1,7 @@
 event HudHealthBonusPulse
 {
 
+	//ctrl+f "damagedplayer" for damage flash
 	
 	Animate PlayerStatusHealthValue			FgColor		"OmpHPBuff"	Accel 0.0 0.0
 	
@@ -171,17 +172,9 @@ event HudMedicChargedStop
 
 event DamagedPlayer
 {
-	//Animate	OmpCrosshairPlus		FgColor "255 0 0 255"		Accel 0.0 0.0
-	//Animate	OmpCrosshairPlus		FgColor "255 0 255 255"		Accel 0.2 0.0
 
-	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 0 255"		Accel 0.0 0.0
-	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 255 255"		Accel 0.2 0.0
-
-	Animate	OmpCrosshairDot			FgColor "255 0 0 255"		Accel 0.0 0.0
-	Animate	OmpCrosshairDot			FgColor "0 255 0 255"		Accel 0.2 0.0
-
-	Animate	OmpCrosshairCircle		FgColor "255 0 0 255"		Accel 0.0 0.0
-	Animate	OmpCrosshairCircle		FgColor "0 255 0 255"	Accel 0.2 0.0
+	//Animate	OmpCrosshair	FgColor "255 0 0 255"		Accel 0.0 0.0
+	//Animate	OmpCrosshair	FgColor "255 255 255 255"	Accel 0.2 0.0
 }
 
 event TeamStatus_PlayerDead

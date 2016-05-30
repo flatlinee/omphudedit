@@ -6193,7 +6193,7 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/Crosshairs.otf"
+			"font" "resource/Crosshairs.ttf"
 			"name" "Crosshairs Regular"
 		}
 		"10"
@@ -6212,5 +6212,6 @@ Scheme
 			"font" "resource/sosa-regular-webfont.ttf"
 			"name" "Sosa Regular"
 		}
+		
 	}
 }
