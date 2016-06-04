@@ -9,7 +9,6 @@ classic omphud, updated to 2016 with all sorts of new goodies thrown in
 
 
 omp's original readme below
----------------------------
 
 
 omp/tf2hud
