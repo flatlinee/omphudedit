@@ -295,10 +295,11 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "18 22 25 255"
-			"armedBgColor_override"	  "50 50 50 255"
-			"depressedBgColor_override"	"50 50 50 255"
+			"defaultBgColor_override" "13 17 20 255"
+			"armedBgColor_override"	  "33 37 40 255"
+			"depressedBgColor_override"	"33 37 40 255"
 			"border_default"	"NoBorder"
+			"paintborder"		"1"
 		}			
 		
 		"FreeAccountLabel"

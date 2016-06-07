@@ -302,12 +302,13 @@
 				"sound_released"	"UI/buttonclickrelease.wav"
 				"fgcolor"	"255 255 255 255"
 				"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "18 22 25 255"
-			"armedBgColor_override"	  "33 37 40 255"
-			"depressedBgColor_override"	"33 37 40 255"
-			"border_default"	"NoBorder"
+				"armedFgColor_override" "TanLight"
+				"depressedFgColor_override" "TanLight"
+				"defaultBgColor_override" "13 17 20 255"
+				"armedBgColor_override"	  "33 37 40 255"
+				"depressedBgColor_override"	"33 37 40 255"
+				"border_default"	"NoBorder"
+				"paintborder"		"1"
 			}		
 				
 			"NextPageButton"
@@ -335,12 +336,13 @@
 				"fgcolor_override"	"255 255 255 255"
 				
 				"defaultFgColor_override" "TanLight"
-			"armedFgColor_override" "TanLight"
-			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "18 22 25 255"
-			"armedBgColor_override"	  "33 37 40 255"
-			"depressedBgColor_override"	"33 37 40 255"
-			"border_default"	"NoBorder"
+				"armedFgColor_override" "TanLight"
+				"depressedFgColor_override" "TanLight"
+				"defaultBgColor_override" "13 17 20 255"
+				"armedBgColor_override"	  "33 37 40 255"
+				"depressedBgColor_override"	"33 37 40 255"
+				"border_default"	"NoBorder"
+				"paintborder"		"1"
 			}	
 		}
 
@@ -754,9 +756,11 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "18 22 25 255"
+			"defaultBgColor_override" "13 17 20 255"
 			"armedBgColor_override"	  "33 37 40 255"
 			"depressedBgColor_override"	"33 37 40 255"
+			"border_default"	"NoBorder"
+			"paintborder"		"1"
 		}
 
 		"ShowServersButton"
@@ -790,9 +794,11 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "18 22 25 255"
+			"defaultBgColor_override" "13 17 20 255"
 			"armedBgColor_override"	  "33 37 40 255"
 			"depressedBgColor_override"	"33 37 40 255"
+			"border_default"	"NoBorder"
+			"paintborder"		"1"
 		}
 
 		"OptionsButton"
@@ -940,7 +946,7 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "13 17 20 225"
+			"defaultBgColor_override" "13 17 20 255"
 			"armedBgColor_override"	  "33 37 40 255"
 			"depressedBgColor_override"	"33 37 40 255"
 			"border_default"	"NoBorder"

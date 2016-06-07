@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"18 22 25 255"
+		"infocus_bgcolor_override" "18 22 25 255"
+		"outoffocus_bgcolor_override" "18 22 25 255"
 		
 		"max_cart_model_panels"	"10"
 		
@@ -33,16 +33,16 @@
 		"item_controls_yoffset"	"2"
 
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"item_backdrop_color"				"13 17 20 255"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
 		"item_backdrop_bottom_margin"		"42"
 		"item_backdrop_paintbackgroundtype"	"2"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"8 12 15 255"
+		"item_panel_bgcolor_mouseover"	"33 37 40 255"
+		"item_panel_bgcolor_selected"	"33 37 40 255"
 		
 		"classicon_xdelta"		"5"
 
@@ -58,7 +58,8 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
+			"paintborder"	"1"
+			"border"		"NoBorder"
 						
 			"model_xpos"	"24"
 			"model_ypos"	"6"
@@ -116,7 +117,8 @@
 			"bgcolor_override"		"0 0 0 255"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"2"
-			"paintborder"	"0"
+			"paintborder"	"1"
+			"border"		"NoBorder"
 			
 			"model_xpos"	"2"
 			"model_ypos"	"2"
@@ -171,10 +173,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"13 17 20 255"
 		"paintbackgroundtype" "2"
-		"font"		"HudFontSmall"
+		"font"		"HudFontSmallBold"
 	}
 	
 	"SubcategoryFilterComboBox"
@@ -200,20 +202,20 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"13 17 20 255"
+		"disabledFgColor_override" "255 255 255 255"
+		"disabledBgColor_override" "13 17 20 255"
 		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"selectionTextColor_override" "255 255 255 255"
+		"defaultSelectionBG2Color_override" "13 17 20 255"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
-			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"defaultBgColor_override"	"13 17 20 255"
+			"armedFgColor_override"	"255 255 255 255"
+			"armedBgColor_override"	"13 17 20 255"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -241,20 +243,20 @@
 		"border_override"	"ButtonBorder"
 		"paintborder"		"1"
 		
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"251 235 202 255"
-		"disabledFgColor_override" "117 107 94 255"
-		"disabledBgColor_override" "251 235 202 255"
+		"fgcolor_override"	"255 255 255 255"
+		"bgcolor_override"	"13 17 20 255"
+		"disabledFgColor_override" "255 255 255 255"
+		"disabledBgColor_override" "13 17 20 255"
 		"selectionColor_override" "251 235 202 255"
-		"selectionTextColor_override" "117 107 94 255"
-		"defaultSelectionBG2Color_override" "251 235 202 255"
+		"selectionTextColor_override" "255 255 255 255"
+		"defaultSelectionBG2Color_override" "13 17 20 255"
 		
 		"Button"
 		{
-			"defaultFgColor_override"	"118 107 94 255"
-			"defaultBgColor_override"	"251 235 202 255"
-			"armedFgColor_override"	"138 127 114 255"
-			"armedBgColor_override"	"251 235 202 255"
+			"defaultFgColor_override"	"255 255 255 255"
+			"defaultBgColor_override"	"13 17 20 255"
+			"armedFgColor_override"	"255 255 255 255"
+			"armedBgColor_override"	"13 17 20 255"
 			"paintbackgroundtype"	"2"
 		}
 	}
@@ -295,7 +297,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
+			"bgcolor_override"	"28 32 35 255"
 			
 			"attriblabel"
 			{
@@ -332,13 +334,13 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"28 32 35 255"
 		"PaintBackgroundType"	"2"
 		"centerwrap"	"1"
 		"paintborder"	"1"
 		"textinsetx"	"100"
-		"border"		"LoadoutItemPopupBorder"
-		"fgcolor"		"243 234 216 255"
+		"border"		"NoBorder"
+		"fgcolor"		"255 255 255 255"
 	}
 
 	"PrevPageButton"
@@ -363,6 +365,12 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}		
 	
 	"CurPageLabel"
@@ -381,7 +389,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "OmpHighlights"
 	}
 	
 	"NextPageButton"
@@ -406,6 +414,12 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}	
 	
 	"PriceLabel"
@@ -444,7 +458,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"SubcategoryFiltersLabel"
@@ -463,7 +477,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"SortFilterLabel"
@@ -482,7 +496,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"ClassFilterLabel"
@@ -501,7 +515,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"StoreDarkTan"
+		"fgcolor"		"255 255 255 255"
 	}
 	
 	"ClassFilterNavPanel"
@@ -550,9 +564,9 @@
 			"paintbackground"	"0"
 			"paintborder"		"0"
 			
-			"image_drawcolor"		"255 255 255 180"
-			"image_armedcolor"		"255 255 255 255"
-			"image_selectedcolor"	"255 255 255 255"
+			"image_drawcolor"		"0 193 63 180"
+			"image_armedcolor"		"0 193 63 255"
+			"image_selectedcolor"	"0 193 63 255"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -746,6 +760,12 @@
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}
 	
 	"CartImage"

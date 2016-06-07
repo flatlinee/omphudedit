@@ -2714,7 +2714,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"13 17 20 225"
+		"fillcolor"		"13 17 20 255"
 	}
 	
 	"NewUserForumsButton"

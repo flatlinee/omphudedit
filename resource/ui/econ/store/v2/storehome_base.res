@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"StorePage"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"72"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"25 25 25 255"
-		"infocus_bgcolor_override" "25 25 25 255"
-		"outoffocus_bgcolor_override" "25 25 25 255"
+		"bgcolor_override"	"18 22 25 255"
+		"infocus_bgcolor_override" "18 22 25 255"
+		"outoffocus_bgcolor_override" "18 22 25 255"
 		
 		"item_controls_xoffset"	"2"
 		"item_controls_yoffset"	"2"
@@ -35,7 +35,7 @@
 		
 		"item_backdrop_zpos"				"1"
 		"show_item_backdrop"				"1"
-		"item_backdrop_color"				"24 22 20 255"
+		"item_backdrop_color"				"13 17 20 255"
 		"item_backdrop_left_margin"			"11"
 		"item_backdrop_right_margin"		"11"
 		"item_backdrop_top_margin"			"9"
@@ -44,9 +44,9 @@
 
 		"item_backdrop_zpos"				"1"
 		
-		"item_panel_bgcolor"			"51 47 46 255"
-		"item_panel_bgcolor_mouseover"	"156 146 128 255"
-		"item_panel_bgcolor_selected"	"176 166 148 255"
+		"item_panel_bgcolor"			"18 22 25 255"
+		"item_panel_bgcolor_mouseover"	"33 37 40 255"
+		"item_panel_bgcolor_selected"	"33 37 40 255"
 		
 		"classicon_xdelta"		"5"
 
@@ -193,7 +193,7 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"35 35 35 255"
+			"bgcolor_override"	"28 32 35 255"
 			
 			"attriblabel"
 			{
@@ -302,13 +302,14 @@
 			"scaleImage"		"1"
 			"font"			"HudFontSmallestBold"
 			
-			"fgcolor"	"124 114 99 255"
-			"defaultBgColor_override" "38 35 33 255"
-			"defaultFgColor_override" "124 114 99 255"
-			"armedBgColor_override" "30 30 30 255"
-			"armedFgColor_override" "124 114 99 255"
-			"selectedBgColor_override" "10 10 10 255"
-			"selectedFgColor_override"	"235 227 203 255"
+			"fgcolor_override"	"200 200 200 255"
+			"defaultBgColor_override" "13 17 20 255"
+			"armedBgColor_override"	  "33 37 40 255"
+			"depressedBgColor_override"	"33 37 40 255"
+			"selectedBgColor_override" "13 17 20 255"
+			"selectedFgColor_override"	"255 255 255 255"
+			"border_default"	"NoBorder"
+			"paintborder"		"1"
 			
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -317,7 +318,6 @@
 			"paintbackground"	"1"
 			"paintborder"		"1"
 			
-			"border"				"ButtonBorder"
 			
 			"stayselectedonclick"	"1"
 			"keyboardinputenabled"	"0"
@@ -346,6 +346,12 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}		
 	
 	"CurPageLabel"
@@ -364,7 +370,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
+		"fgcolor_override" "OmpHighlights"
 	}
 	
 	"NextPageButton"
@@ -389,6 +395,13 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}	
 	
 	"BackpackSpaceLabel"
@@ -430,6 +443,12 @@
 		"font"			"HudFontSmallBold"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}
 	
 	"CartImage"
@@ -474,9 +493,9 @@
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "TanLight"
 		"depressedFgColor_override" "TanLight"
-		"defaultBgColor_override" "25 25 25 255"
-		"armedBgColor_override"	  "50 50 50 255"
-		"depressedBgColor_override"	"50 50 50 255"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
 		"border_default"	"NoBorder"
 		"paintborder"		"1"
 	}
@@ -485,7 +504,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"HudFontSmallest"
+		"font"			"Futura12"
 		"labelText"		""
 		"textAlignment"	"west"
 		"xpos"			"c-45"

@@ -30,7 +30,7 @@
 			"autoResize"		"0"
 			"PaintBackgroundType""1"
 			"border"			"NoBorder"
-			"bgcolor_override"	"30 30 30 255"
+			"bgcolor_override"	"28 32 35 255"
 			
 			"attriblabel"
 			{

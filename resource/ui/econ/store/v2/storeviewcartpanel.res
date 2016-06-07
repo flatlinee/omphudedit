@@ -15,9 +15,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"1"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"				"25 25 25 255"
-		"infocus_bgcolor_override"		"25 25 25 255"
-		"outoffocus_bgcolor_override"	"25 25 25 255"
+		"bgcolor_override"				"18 22 25 255"
+		"infocus_bgcolor_override"		"18 22 25 255"
+		"outoffocus_bgcolor_override"	"18 22 25 255"
 		
 		"title"			"#StoreTitle"
 		"title_font"	"HudFontMediumBold"
@@ -171,7 +171,7 @@
 		"tall"			"55"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 255"
+		"fillcolor"		"13 17 20 255"
 		"tileImage"		"1"
 	}				
 	"BackgroundFooter"
@@ -185,7 +185,7 @@
 		"tall"			"60"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"15 15 15 255"
+		"fillcolor"		"13 17 20 255"
 		"tileImage"		"1"
 	}				
 	"FooterLine"
@@ -211,7 +211,7 @@
 		"ypos"			"55"
 		"wide"			"f0"
 		"tall"			"368"
-		"bgcolor_override"				"25 25 25 255"
+		"bgcolor_override"				"18 22 25 255"
 		
 		"HeaderLine"
 		{
@@ -290,7 +290,7 @@
 			"tall"			"240"
 			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"118 107 94 255"	// Gets copied to the scrollbar fgcolor as part of ScrollableEditablePanel
-			"bgcolor_override"	"15 15 15 255"
+			"bgcolor_override"	"13 17 20 255"
 			"autohide_buttons" "1"
 			
 			"Scrollbar"
@@ -465,9 +465,9 @@
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "TanLight"
 		"depressedFgColor_override" "TanLight"
-		"defaultBgColor_override" "25 25 25 255"
-		"armedBgColor_override"	  "50 50 50 255"
-		"depressedBgColor_override"	"50 50 50 255"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
 		"border_default"	"NoBorder"
 		"paintborder"		"1"
 	}		
@@ -499,9 +499,9 @@
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "TanLight"
 		"depressedFgColor_override" "TanLight"
-		"defaultBgColor_override" "25 25 25 255"
-		"armedBgColor_override"	  "50 50 50 255"
-		"depressedBgColor_override"	"50 50 50 255"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
 		"border_default"	"NoBorder"
 		"paintborder"		"1"
 	}

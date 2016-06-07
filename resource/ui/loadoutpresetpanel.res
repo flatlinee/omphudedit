@@ -26,9 +26,9 @@
 			"centerwrap"	"1"
 			"border_default"	"NoBorder"
 			
-			"defaultBgColor_override"	"18 22 25 255"
-			"armedBgColor_override"		"18 22 25 255"
-			"depressedBgColor_override"	"18 22 25 255"
+			"defaultBgColor_override"	"13 17 20 255"
+			"armedBgColor_override"		"13 17 20 255"
+			"depressedBgColor_override"	"13 17 20 255"
 			
 			"defaultFgColor_override"	"255 255 255 255"
 			"armedFgColor_override"		"OmpMouseover"

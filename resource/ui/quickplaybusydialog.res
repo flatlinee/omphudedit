@@ -79,7 +79,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"	"18 22 25 255"
+			"bgcolor_override"	"13 17 20 255"
 			"fgcolor_override"	"255 255 255 255"
 		}
 
@@ -128,7 +128,7 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "13 17 20 225"
+			"defaultBgColor_override" "13 17 20 255"
 			"armedBgColor_override"	  "33 37 40 255"
 			"depressedBgColor_override"	"33 37 40 255"
 			"border_default"	"NoBorder"
@@ -168,7 +168,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"18 22 25 225"
+			"bgcolor_override"	"13 17 20 255"
 		}
 
 		"TitleLabel"
@@ -230,7 +230,7 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "18 22 25 255"
+			"defaultBgColor_override" "13 17 20 255"
 			"armedBgColor_override"	  "33 37 40 255"
 			"depressedBgColor_override"	"33 37 40 255"
 			"border_default"	"NoBorder"
@@ -264,7 +264,7 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "13 17 20 225"
+			"defaultBgColor_override" "13 17 20 255"
 			"armedBgColor_override"	  "33 37 40 255"
 			"depressedBgColor_override"	"33 37 40 255"
 			"border_default"	"NoBorder"

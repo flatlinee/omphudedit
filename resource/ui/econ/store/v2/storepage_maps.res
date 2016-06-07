@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubTitleLabel"
-		"font"			"FontStoreOriginalPrice"
+		"font"			"Futura10"
 		"labelText"		"#Store_Maps_SubTitle"
 		"textAlignment"	"south-west"
 		"xpos"			"c-292"
@@ -87,7 +87,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"96 90 85 255"
+		"fgcolor"		"200 200 200 255"
 	}
 	
 	"LearnMoreButton"
@@ -112,5 +112,15 @@
 		"Command"		"maps_learnmore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		
+		
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		"paintborder"		"1"
 	}	
 }
