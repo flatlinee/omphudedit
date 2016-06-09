@@ -172,14 +172,14 @@
 		"paintborder"	"0"
 		
 		"model_xpos"		"0"
-		"model_ypos"		"20"
-		"model_center_y"	"1"
-		"model_wide"		"140"
-		"model_tall"		"33"
+		"model_center_x"    "1"
+		"model_ypos"        "20"
+		"model_wide"		"90"
+		"model_tall"		"50"
 		
 		"text_xpos"		"0"
 		"text_ypos"		"20"
-		"text_wide"		"200"
+		"text_wide"		"140"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
@@ -206,7 +206,7 @@
 		"itemmodelpanel"
 		{
 			"fieldName"		"itemmodelpanel"
-			"use_item_rendertarget" "1"
+			"use_item_rendertarget" "0"
 			"useparentbg"		"1"
 		}
 		
