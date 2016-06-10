@@ -168,7 +168,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"		"0"
-			"bgcolor_override"	"18 22 25 255"
+			"bgcolor_override"	"18 22 25 225"
 		}
 
 		"TitleLabel"
