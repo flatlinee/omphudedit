@@ -117,7 +117,7 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"117 107 94 255"
+		"TanDark"				"255 255 255 255"
 		"TanLight"				"255 255 255 255"
 		"TanDarker"				"46 43 42 255"
 		
@@ -126,11 +126,11 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
-		"ProgressBackground"	"250 234 201 51"
+		"ProgressOffWhite"	"0 193 63 255"
+		"ProgressBackground"	"237 233 220 50"
 		"HealthBgGrey"		"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"255 255 255 128"
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
@@ -986,8 +986,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
-				"tall"		"11"
+				"name"		"Futura10"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -1393,15 +1393,27 @@ Scheme
 			}
 		}
 		// this is the symbol font
-		"Marlett"
+				"Marlett"
 		{
 			"1"
 			{
 				"name"		"Marlett"
-				"tall"		"12"
+				"tall"		"20"
 				"weight"	"0"
 				"symbol"	"1"
 				"range"		"0x0000 0x007F"	//	Basic Latin
+			}
+		}
+		
+		"MarlettSmall"
+		{
+			"1"
+			{
+				"name" 		"Marlett"
+				"tall"		"14"
+				"weight"	"0"
+				"symbol"	"1"
+				"range"     "0x0000 0x007F"        //        Basic Latin
 			}
 		}
 		"MenuMainTitle"
@@ -3740,6 +3752,18 @@ Scheme
 				"antialias" "0"
 			}
 		}
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"FuturaStd-Medium"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+
 	}
 
 	//
@@ -5970,6 +5994,20 @@ Scheme
 				}
 			}
 		}
+		
+		SortCategoryBorder
+		{
+			"inset" "0 0 1 1"
+	
+			Right
+			{
+				"1"
+				{
+					"color" "TanDark"
+					"offset" "1 0"
+				}
+			}
+		}
 
 		SteamWorkshopBorder
 		{
@@ -6114,8 +6152,69 @@ Scheme
 		ReplayBrowser.ScrollBar.SliderButton.Border
 		{
 		}
+	
+		QuestStatusBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"replay/panel_scalable_transparent"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		RedWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_red"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		BlueWithThinBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"../hud/panel_scalable_blue"
+			"src_corner_height"		"23"			// pixels inside the image
+			"src_corner_width"		"23"
+			"draw_corner_width"		"7"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"7"	
+		}
+
+		InnerShadowBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"5"	
+		}
+
+		InnerShadowBorderThin
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"2"
+			
+			"image"					"inner_shadow_border"
+			"src_corner_height"		"5"				// pixels inside the image
+			"src_corner_width"		"5"
+			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"4"	
+		}
 	}
 
+	
 	//////////////////////// CUSTOM FONT FILES /////////////////////////////
 	//
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
@@ -6193,7 +6292,7 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/Crosshairs.ttf"
+			"font" "resource/Crosshairs.otf"
 			"name" "Crosshairs Regular"
 		}
 		"10"
@@ -6212,6 +6311,5 @@ Scheme
 			"font" "resource/sosa-regular-webfont.ttf"
 			"name" "Sosa Regular"
 		}
-		
 	}
 }

@@ -1,12 +1,12 @@
-"Resource/UI/CompetitiveWelcomeDialog.res"
+"Resource/UI/CasualWelcomeDialog.res"
 {
 	"ConfirmDialog"
 	{
-		"ControlName"		"Frame"
+		"ControlName"	"Frame"
 		"fieldName"		"ConfirmDialog"
 		// Auto-centered by GenericConfirmDialog
 		"wide"			"564"
-		"tall"			"387" // Bottom of confirm button + 10 margin
+		"tall"			"287" // Bottom of confirm button + 10 margin
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -17,13 +17,16 @@
 		"paintbackground"		"1"
 		"bgcolor_override"	"OmpDarkBG"
 	}
+	
 
-	"CompTitleLabel"
+
+
+	"CasualTitleLabel"
 	{
 		"ControlName"	"CExLabel"
-		"fieldName"		"ComptTitleLabel"
+		"fieldName"		"CasualTitleLabel"
 		"font"			"Futura16"
-		"labelText"		"#TF_Competitive_Welcome_Title"
+		"labelText"		"#TF_Casual_Welcome_Title"
 		"textAlignment"	"center"
 		"proportionalToParent"  "1"
 		"xpos"			"0"
@@ -60,7 +63,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SubtitleLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_Subtitle"
+		"labelText"		"#TF_Casual_Welcome_Subtitle"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
@@ -80,14 +83,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTitleLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionOne_Title"
+		"labelText"		"#TF_Casual_Welcome_Section_One_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
 		"ypos"			"47" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -101,20 +104,20 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionOneTextLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionOne_Text"
+		"labelText"		"#TF_Casual_Welcome_Section_One_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
 		"ypos"			"60" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44" // Size 15 font - 4 rows
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SectionTwoTitleLabel"
@@ -122,14 +125,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionTwoTitleLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionTwo_Title"
+		"labelText"		"#TF_Casual_Welcome_Section_Two_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
 		"ypos"			"108" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -143,20 +146,20 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionTwoTextLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionTwo_Text"
+		"labelText"		"#TF_Casual_Welcome_Section_Two_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
 		"ypos"			"121" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44" // Size 15 font - 4 rows
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"SectionThreeTitleLabel"
@@ -164,14 +167,14 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTitleLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionThree_Title"
+		"labelText"		"#TF_Casual_Welcome_Section_Three_Title"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
 		"ypos"			"169" // 4 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"11"
+		"tall"			"15"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -185,104 +188,20 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SectionThreeTextLabel"
 		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionThree_Text"
+		"labelText"		"#TF_Casual_Welcome_Section_Three_Text"
 		"textAlignment"	"north"
 		"proportionalToParent"  "1"
 		"xpos"			"cs-0.5"
 		"ypos"			"182" // 2 margin
 		"zpos"			"1"
 		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
+		"tall"			"44" // Size 15 font - 4 rows
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "TanDark"
-	}
-
-	"SectionFourTitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionFourTitleLabel"
-		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionFour_Title"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"230" // 4 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"11"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "OmpMouseover"
-	}
-
-	"SectionFourTextLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionFourTextLabel"
-		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionFour_Text"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"243" // 2 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "TanDark"
-	}
-
-	"SectionFiveTitleLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionFiveTitleLabel"
-		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionFive_Title"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"291" // 4 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"11"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "OmpMouseover"
-	}
-
-	"SectionFiveTextLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"SectionFiveTextLabel"
-		"font"			"Futura10"
-		"labelText"		"#TF_Competitive_Welcome_SectionFive_Text"
-		"textAlignment"	"north"
-		"proportionalToParent"  "1"
-		"xpos"			"cs-0.5"
-		"ypos"			"304" // 2 margin
-		"zpos"			"1"
-		"wide"			"p0.9"
-		"tall"			"44" // Size 11 font - 4 rows
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"wrap"			"1"
-		"fgcolor_override" "TanDark"
+		"fgcolor_override" "TanLight"
 	}
 
 	"ConfirmButton"
@@ -290,10 +209,10 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"ConfirmButton"
 		"proportionalToParent"  "1"
-		"xpos"			"cs+.06"
-		"ypos"			"352" // 4 margin
+		"xpos"			"rs1-10"
+		"ypos"			"252" // 4 margin
 		"zpos"			"20"
-		"wide"			"p0.425"
+		"wide"			"150"
 		"tall"			"25"
 		"default"		"1"
 		"autoResize"	"0"
@@ -310,7 +229,6 @@
 		"Command"		"confirm"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		
 		"defaultFgColor_override" "TanLight"
 		"armedFgColor_override" "TanLight"
 		"depressedFgColor_override" "TanLight"
@@ -320,13 +238,13 @@
 		"border_default"	"NoBorder"
 		"paintborder"		"1"
 	}
-	
+
 	"NeverShowAgainCheckBox"
 	{
 		"ControlName"	"CheckButton"
 		"fieldName"	"NeverShowAgainCheckBox"
 		"xpos"		"20"
-		"ypos"		"352" // 4 margin
+		"ypos"		"252" // 4 margin
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"

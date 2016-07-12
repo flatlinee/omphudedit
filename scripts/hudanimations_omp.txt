@@ -1,7 +1,6 @@
 event HudHealthBonusPulse
 {
 
-	//ctrl+f "damagedplayer" for damage flash
 	
 	Animate PlayerStatusHealthValue			FgColor		"OmpHPBuff"	Accel 0.0 0.0
 	
@@ -172,9 +171,17 @@ event HudMedicChargedStop
 
 event DamagedPlayer
 {
+	//Animate	OmpCrosshairPlus		FgColor "255 0 0 255"		Accel 0.0 0.0
+	//Animate	OmpCrosshairPlus		FgColor "255 0 255 255"		Accel 0.2 0.0
 
-	//Animate	OmpCrosshair	FgColor "255 0 0 255"		Accel 0.0 0.0
-	//Animate	OmpCrosshair	FgColor "255 255 255 255"	Accel 0.2 0.0
+	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 0 255"		Accel 0.0 0.0
+	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 255 255"		Accel 0.2 0.0
+
+	Animate	OmpCrosshairDot			FgColor "255 0 0 255"		Accel 0.0 0.0
+	Animate	OmpCrosshairDot			FgColor "0 255 0 255"		Accel 0.2 0.0
+
+	Animate	OmpCrosshairCircle		FgColor "255 0 0 255"		Accel 0.0 0.0
+	Animate	OmpCrosshairCircle		FgColor "0 255 0 255"	Accel 0.2 0.0
 }
 
 event TeamStatus_PlayerDead
@@ -199,4 +206,58 @@ event WinPanel_CompPos
 event WinPanel_NormalPos
 {
     Animate WinPanel ypos r132 Linear 0 0
+}
+
+event MMenu_PlayList_Expand
+{
+	Animate CreateServerButton ypos 211  Spline 0 0.4
+	Animate CharacterSetupButton ypos 239  Spline 0 0.4
+	Animate GeneralStoreButton ypos 253  Spline 0 0.4
+	Animate ReplayBrowserButton ypos 281  Spline 0 0.4
+	Animate SteamWorkshopButton ypos 295  Spline 0 0.4
+	Animate SettingsButton ypos 323  Spline 0 0.4
+	Animate TF2SettingsButton ypos 337  Spline 0 0.4
+	Animate QuitButton ypos 365  Spline 0 0.4
+	Animate DisconnectButton ypos 365  Spline 0 0.4
+	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
+
+	FireCommand 0 "soundentry Panel.SlideDown"
+}
+
+event MMenu_PlayList_Collapse
+{
+	Animate CreateServerButton ypos 191  Spline 0 0.4
+	Animate CharacterSetupButton ypos 219  Spline 0 0.4
+	Animate GeneralStoreButton ypos 233  Spline 0 0.4
+	Animate ReplayBrowserButton ypos 261  Spline 0 0.4
+	Animate SteamWorkshopButton ypos 275  Spline 0 0.4
+	Animate SettingsButton ypos 303  Spline 0 0.4
+	Animate TF2SettingsButton ypos 317  Spline 0 0.4
+	Animate QuitButton ypos 345  Spline 0 0.4
+	Animate DisconnectButton ypos 345  Spline 0 0.4
+	Animate PlayListContainer Tall 0 Spline 0 0.4
+
+	FireCommand 0 "soundentry Panel.SlideUp"
+}
+
+event CasualCategory_Checkbox_Hide
+{
+	Animate Checkbutton xpos 350 Deaccel 0 0.2
+	Animate Title		xpos 215 Deaccel 0 0.2
+	Animate TitleShadow	xpos 216 Deaccel 0 0.2
+	Animate DescLabel	xpos 215 Deaccel 0 0.2
+	Animate DescLabelShadow	xpos 216 Deaccel 0 0.2
+
+	//Animate Title		FgColor TanDark Deaccel 0 0.2
+}
+
+event CasualCategory_Checkbox_Show
+{
+	Animate Checkbutton xpos 5 Deaccel 0 0.2
+	Animate Title		xpos 20 Deaccel 0 0.2
+	Animate TitleShadow	xpos 21 Deaccel 0 0.2
+	Animate DescLabel	xpos 10 Deaccel 0 0.2
+	Animate DescLabelShadow	xpos 11 Deaccel 0 0.2
+
+	//Animate Title		FgColor TanLight Deaccel 0 0.2
 }

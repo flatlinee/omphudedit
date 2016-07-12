@@ -31,10 +31,10 @@
 		}
 	}
 	
-	"StreamBG"
+	"StreamBG1"
 	{
 		"ControlName"	"ImagePanel"
-		"fieldName"		"StreamBG"
+		"fieldName"		"StreamBG1"
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-5"
@@ -42,7 +42,7 @@
 		"tall"			"360"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"18 22 25 225"
 	}
 		
 	"StreamHeaderBG"
@@ -204,10 +204,10 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"Stream_URLButton"
+	"Stream_URLButton1"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"Stream_URLButton"
+		"fieldName"		"Stream_URLButton1"
 		"xpos"			"75"
 		"ypos"			"280"
 		"wide"			"150"
@@ -236,6 +236,7 @@
 		"defaultBgColor_override" "18 22 25 255"
 		"armedBgColor_override"	  "50 50 50 255"
 		"depressedBgColor_override"	"50 50 50 255"
-		"border_default"	"NoBorder"
+		"paintborder"	"1"
+		"border"	"NoBorder"
 	}	
 }

@@ -15,14 +15,76 @@
 		"scaleImage"	"1"
 		"proportionaltoparent" "1"
 	}
+	
+		"LocalLeaderboardButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"LocalLeaderboardButton"
+		"xpos"			"p0.05"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"p0.44"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+		
+		"actionsignallevel"		"1"
+		"command"		"local"
+		"labeltext"		"Friends"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
+
+	"GlobalLeaderboardButton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"GlobalLeaderboardButton"
+		"xpos"			"rs1-p0.05"
+		"ypos"			"2"
+		"zpos"			"0"
+		"wide"			"p0.44"
+		"tall"			"15"
+		"visible"		"1"
+		"proportionaltoparent"	"1"
+		
+		"defaultFgColor_override" "TanLight"
+		"armedFgColor_override" "TanLight"
+		"depressedFgColor_override" "TanLight"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
+		"border_default"	"NoBorder"
+
+		"actionsignallevel"		"1"
+		"command"		"global"
+		"labeltext"		"Global"
+		"font"			"HudFontSmallestBold"
+		"fgcolor_override"	"TanLight"
+		"textAlignment"	"center"
+
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
 
 	"Line"
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"Line"
-		"xpos"				"10"
-		"ypos"				"18"
+		"xpos"				"0"
+		"ypos"				"20"
 		"wide"				"240"
 		"tall"				"2"
 		"visible"			"1"
@@ -35,10 +97,10 @@
 	{
 		"ControlName"		"ScrollableEditablePanel"
 		"fieldName"			"ScoreListScroller"
-		"xpos"				"3"
+		"xpos"				"-10"
 		"ypos"				"30"
-		"wide"				"260"
-		"tall"				"230"
+		"wide"				"205"
+		"tall"				"220"
 		"visible"			"1"
 		"proportionaltoparent" "1"
 		"asynchandling"		"hide"

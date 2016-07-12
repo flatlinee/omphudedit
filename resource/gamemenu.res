@@ -1,62 +1,12 @@
 "GameMenu" [$WIN32]
 {
-	"ResumeGameButton"
+
+	"FindAGameButton"
 	{
-		"label"			"#MMenu_ResumeGame"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
-	}
-	"QuickplayButton"
-	{
-		"label" "Quickplay" 
-		"command" "quickplay"
+		"label" "#MMenu_FindAGame" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
-	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
-	}
-	"PlayPVEButton"
-	{
-		"label" "MvM" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
-	}
-	"CompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" ""
 		"OnlyAtMenu"	"1"
-		"OnlyWhenCompetitiveEnabled" "0"
-	}
-	"PlayCompetitiveButton"
-	{
-		"label" "Competitive" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "1"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "Servers" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
 	}
 	"ReplayBrowserButton"
 	{
@@ -85,13 +35,13 @@
 		"OnlyAtMenu" "1"
 	}
 	
-	// These buttons get positioned by the MainMenuOverride.res	
+	// These buttons get positioned by the MainMenuOverride.res
 	"CreateServerButton"
 	{
 		"label" "Create"
 		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
+		"OnlyAtMenu" "0"
+	}	
 	"GeneralStoreButton"
 	{
 		"label" "Store"
