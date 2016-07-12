@@ -3730,7 +3730,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo1"
-		"xpos"			"160"
+		"xpos"			"r310"
 		"ypos"			"70"
 		"zpos"			"-60"
 		"wide"			"320"
