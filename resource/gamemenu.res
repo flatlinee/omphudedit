@@ -6,7 +6,7 @@
 		"label" "#MMenu_FindAGame" 
 		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"1"
+		"OnlyAtMenu"	"0"
 	}
 	"ReplayBrowserButton"
 	{
@@ -59,23 +59,34 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"Call Vote"
+		"label"			""
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"
+		"tooltip" "Call a Vote"
 	}
 	"MutePlayersButton"
 	{
-		"label"			"Mute Players"
+		"label"			""
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
+		"tooltip" "Mute Players"
 	}
 	"RequestCoachButton"
 	{
-		"label"			"Request Coach"
+		"label"			""
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
+		"tooltip" "Request a Coach"
+	}
+	"ReportPlayerButton"
+	{
+		"label"			""
+		"command"		"OpenReportPlayerDialog"
+		"OnlyInGame"	"1"
+		"subimage"		"glyph_alert"
+		"tooltip"		"#MMenu_ReportPlayer"
 	}
 }
