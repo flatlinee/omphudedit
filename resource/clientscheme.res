@@ -18,7 +18,8 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
-		// omp colours
+		// omp colors
+		
 		"OmpText"			"255 255 255 255"
 		"OmpShadow"			"30 30 30 255"
 		
@@ -56,10 +57,11 @@ Scheme
 		"OmpChargeAmount"	"0 193 63 255"
 		"OmpRespawnTime"	"255 51 51 255"
 		
-		"OmpHighlights"		"0 193 63 255"
-		"OmpMouseover"		"41 112 69 255"
+		"OmpHighlights"		"0 193 63 255"  //primary accent used for menus
+		"OmpMouseover"		"41 112 69 255" //used for mouseover/highlight text and in-text headers/footers
 		
 		// base colors
+		
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
 		"LightOrange"		"188 112 0 128"
@@ -251,13 +253,13 @@ Scheme
 		
 		Replay.RenderDialog.BgColor							"LighterDarkBrown"
 		
-		Econ.Dialog.BgColor									"Blank"
-		Econ.Button.BgColor									"25 25 25 255"
-		Econ.Button.FgColor									"TanDark"
-		Econ.Button.ArmedBgColor							"35 35 35 255"
+		Econ.Dialog.BgColor									"18 22 25 255"
+		Econ.Button.BgColor									"13 17 20 255"
+		Econ.Button.FgColor									"TanLight"
+		Econ.Button.ArmedBgColor							"33 37 40 255"
 		Econ.Button.ArmedFgColor							"TanLight"
-		Econ.Button.DepressedBgColor						"25 25 25 255"
-		Econ.Button.DepressedFgColor						"TanDark"
+		Econ.Button.DepressedBgColor						"33 37 40 255"
+		Econ.Button.DepressedFgColor						"TanLight"
 		
 		Econ.Button.PresetDefaultColorFg					"TanLight"
 		Econ.Button.PresetArmedColorFg						"TanLight"
@@ -268,17 +270,17 @@ Scheme
 		Econ.Button.PresetDepressedColorBg					"TFOrange"
 		
 		Border.Bright					"Blank"		// the lit side of a control
-		Border.Dark						"Black"		// the dark/unlit side of a control
-		Border.Selection				"Gray"			// the additional border color for displaying the default/selected button
+		Border.Dark						"Blank"		// the dark/unlit side of a control
+		Border.Selection				"Blank"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"TanLight"
-		Button.BgColor					"25 25 25 255"
+		Button.BgColor					"13 17 20 255"
 		Button.ArmedTextColor			"TanLight"
-		Button.ArmedBgColor				"50 50 50 255"
+		Button.ArmedBgColor				"33 37 40 255"
 		Button.SelectedTextColor		"TanLight"
-		Button.SelectedBgColor			"25 25 25 255"
+		Button.SelectedBgColor			"33 37 40 255"
 		Button.DepressedTextColor		"TanLight"
-		Button.DepressedBgColor			"50 50 50 255"
+		Button.DepressedBgColor			"33 37 40 255"
 
 		CheckButton.TextColor			"White"
 		CheckButton.SelectedTextColor	"White"
@@ -986,7 +988,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Futura10"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -3763,7 +3765,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 	}
 
 	//
@@ -4383,12 +4384,80 @@ Scheme
 		Econ.Button.Border.Default
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
 		}
 		Econ.Button.Border.Armed
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			Left
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Right
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Top
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
+
+			Bottom
+			{
+				"1"
+				{
+					"color" "Blank"
+					"offset" "0 0"
+				}
+			}
 		}
 
 		LoadoutItemMouseOverBorder
@@ -5790,6 +5859,8 @@ Scheme
 			"backgroundtype"		"2"
 			
 			"image"					"button_holder_central"
+			"color"					"OmpDarkBG"
+			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
