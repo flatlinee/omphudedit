@@ -57,7 +57,7 @@
 
 			"team1_player_base_y"			"66"
 			"team2_player_base_y"			"66"
-			"team2_player_delta_x"			"55"
+			"team2_player_delta_x"			"52"
 			"team2_player_base_offset_x"	"5"
 		}
 		
@@ -70,6 +70,25 @@
 			
 			"color_ready"	"0 255 0 220"
 			"color_notready"	"0 0 0 220"
+			
+			if_mvm
+			{
+				"wide"		"50"
+				"tall"		"35"
+				"visible"	"0"
+			}
+			if_competitive
+			{
+				"wide"		"50"
+				"tall"		"35"
+				"visible"	"0"
+			}
+			if_readymode
+			{
+				"wide"		"50"
+				"tall"		"35"
+				"visible"	"0"
+			}
 										  			
 			"playername"
 			{
@@ -80,7 +99,7 @@
 				"ypos"			"24"
 				"zpos"			"5"
 				"wide"			"50"
-				"tall"			"8"
+				"tall"			"9"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -90,28 +109,44 @@
 					
 				if_mvm
 				{
-					"xpos"				"4"
-					"ypos"				"26"
-					"wide"			"48"
+					"xpos"				"0"
+					"ypos"				"25"
+					"wide"			"50"
 					"textAlignment"		"center"
 					"font"				"Futura9"
 				}
 				if_competitive
 				{
-					"xpos"				"4"
-					"ypos"				"26"
-					"wide"			"48"
+					"xpos"				"0"
+					"ypos"				"25"
+					"wide"			"50"
 					"textAlignment"		"center"
 					"font"				"Futura9"
 				}
 				if_readymode
 				{
-					"xpos"				"4"
-					"ypos"				"26"
-					"wide"			"48"
+					"xpos"				"0"
+					"ypos"				"25"
+					"wide"			"50"
 					"textAlignment"		"center"
 					"font"				"Futura9"
 				}
+			}
+			
+			"NameBG"
+			{
+				"ControlName"		"ImagePanel"
+				"fieldName"		"NameBG"
+				"xpos"			"0"
+				"ypos"			"24"
+				"zpos"			"-9999"
+				"wide"			"60"
+				"tall"			"11"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"fillcolor"		"0 0 0 100"
 			}
 			
 			"classimage"
@@ -130,24 +165,24 @@
 				
 				if_mvm
 				{
-					"xpos"			"5"
-					"ypos"			"4"
+					"xpos"			"15"
+					"ypos"			"2"
 					"wide"			"20"
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
 				if_competitive
 				{
-					"xpos"			"5"
-					"ypos"			"4"
+					"xpos"			"15"
+					"ypos"			"2"
 					"wide"			"20"
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
 				}
 				if_readymode
 				{
-					"xpos"			"5"
-					"ypos"			"4"
+					"xpos"			"15"
+					"ypos"			"2"
 					"wide"			"20"
 					"tall"			"20"
 					"image"			"../vgui/hud_connecting"
@@ -158,9 +193,9 @@
 			{
 				"ControlName"		"Panel"
 				"fieldName"		"classimagebg"
-				"xpos"			"5"
-				"ypos"			"4"
-				"zpos"			"2"
+				"xpos"			"15"
+				"ypos"			"2"
+				"zpos"			"1"
 				"wide"			"20"
 				"tall"			"20"
 				"visible"		"0"
@@ -204,8 +239,8 @@
 			{
 				"ControlName"		"ScalableImagePanel"
 				"fieldName"		"ReadyBG"
-				"xpos"			"30"
-				"ypos"			"6"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"-1"
 				"wide"			"16"
 				"tall"			"16"
@@ -239,16 +274,17 @@
 			{
 				"ControlName"		"ImagePanel"
 				"fieldName"		"ReadyImage"
-				"xpos"			"32"
-				"ypos"			"8"
-				"zpos"			"0"
-				"wide"			"12"
-				"tall"			"12"
+				"xpos"			"15"
+				"ypos"			"2"
+				"zpos"			"2"
+				"wide"			"20"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"0"
 				"enabled"		"1"
-				"image"			"hud/checkmark"
+				"image"			""
+				"fillcolor"		"0 158 63 255"
 				"scaleImage"		"1"
 
 				if_mvm
@@ -332,24 +368,7 @@
 				//"fgcolor"		"235 226 202 255"
 			}
 			
-			if_mvm
-			{
-				"wide"		"55"
-				"tall"		"35"
-				"visible"	"0"
-			}
-			if_competitive
-			{
-				"wide"		"55"
-				"tall"		"35"
-				"visible"	"0"
-			}
-			if_readymode
-			{
-				"wide"		"55"
-				"tall"		"35"
-				"visible"	"0"
-			}
+
 		}		
 	}
 
