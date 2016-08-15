@@ -916,7 +916,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"FuturaStd-Medium"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -2386,7 +2386,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"FuturaStd-Medium"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -2398,7 +2398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -2409,7 +2409,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"FuturaStd-Medium"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -6363,7 +6363,7 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/Crosshairs.otf"
+			"font" "resource/Crosshairs.ttf"
 			"name" "Crosshairs Regular"
 		}
 		"10"

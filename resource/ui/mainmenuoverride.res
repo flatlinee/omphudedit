@@ -996,9 +996,9 @@
 			"defaultFgColor_override" "TanLight"
 			"armedFgColor_override" "TanLight"
 			"depressedFgColor_override" "TanLight"
-			"defaultBgColor_override" "25 25 25 255"
-			"armedBgColor_override"	  "50 50 50 255"
-			"depressedBgColor_override"	"50 50 50 255"
+			"defaultBgColor_override" "13 17 20 255"
+			"armedBgColor_override"	  "33 37 40 255"
+			"depressedBgColor_override"	"33 37 40 255"
 			"border_default"	"NoBorder"
 		}	
 		
@@ -1919,21 +1919,65 @@
 	
 	"OmphudLabel"
 	{
-		"ControlName"	"CExLabel"
-		"fieldName"	"OmphudLabel"
-		"font"	"Futura32"
-		"labelText"	"omphud"
-		"textAlignment"	"center"
-		"xpos"	"40"
-		"ypos"	"50"
-		"wide"	"100"
-		"tall"	"50"
-		"zpos"	"1"
-		"autoResize"	"0"
-		"pinCorner"	"0"
-		"visible"	"1"
-		"enabled"	"1"
-		"fgcolor"	"255 255 255 255"
+		"ControlName"	"EditablePanel"
+		"fieldname"		"OmphudLabel"
+		"xpos"			"0"
+		"ypos"			"50"
+		"wide"			"180"
+		"tall"			"50"
+		"zpos"			"1"
+		"visible"		"1"
+		"PaintBackgroundType"	"0"
+		
+		"SubButton"
+		{	
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"font"			"Futura32"
+			"labelText"		"omphud"
+			"textAlignment"	"center"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"180"
+			"tall"			"50"
+			"zpos"			"1"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"255 255 255 255"
+			
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"default"		"1"
+			
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "TanLight"
+			"armedFgColor_override" "TanLight"
+			"depressedFgColor_override" "TanLight"
+			
+			"image_drawcolor"	"117 107 94 255"
+			"image_armedcolor"	"235 226 202 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"6"
+				"ypos"			"6"
+				"zpos"			"1"
+				"wide"			"14"
+				"tall"			"14"
+				"visible"		"1"
+				"enabled"		"1"
+				"scaleImage"	"1"
+			}
+		}
 	}
 	
 	"TopLeftDataPanel"
@@ -3984,9 +4028,7 @@
 				}
 			}
 
-		} // Background
-	
-	}
+		}
 
 		"NewImage"
 		{

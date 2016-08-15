@@ -22,6 +22,24 @@
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
 	}
+	
+	"MvMLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"MvMLabel"
+		"xpos"			"180"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"50"
+		"labelText"		"mvm"
+		"font"			"Futura32"
+		//"fgcolor_override"	"89 81 71 255"
+		"fgcolor_override"	"255 255 255 255"
+		"textAlignment"	"center"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
 	"MannVsMachineGroupBox"
 	{
@@ -35,25 +53,7 @@
 		"visible"	"1"
 		"enabled"	"1"
 		"border"	"NoBorder"
-		
-		"MannVsMachineLabel"
-		{
-			"ControlName"	"Label"
-			"fieldName"		"MannVsMachineLabel"
-			"xpos"			"65"
-			"ypos"			"-5"
-			"zpos"			"1"
-			"wide"			"320"
-			"tall"			"25"
-			"labelText"		"#TF_MvM_HeaderMannVsMachine"
-			"font"			"Futura24"
-			//"fgcolor_override"	"89 81 71 255"
-			"fgcolor_override"	"255 255 255 255"
-			"textAlignment"	"west"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-		}
-		
+	
 		"MannVsMachineExplanation"
 		{
 			"ControlName"	"CExLabel"

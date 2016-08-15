@@ -109,25 +109,25 @@
 					
 				if_mvm
 				{
-					"xpos"				"0"
+					"xpos"				"3"
 					"ypos"				"25"
-					"wide"			"50"
+					"wide"			"44"
 					"textAlignment"		"center"
 					"font"				"Futura9"
 				}
 				if_competitive
 				{
-					"xpos"				"0"
+					"xpos"				"3"
 					"ypos"				"25"
-					"wide"			"50"
+					"wide"			"44"
 					"textAlignment"		"center"
 					"font"				"Futura9"
 				}
 				if_readymode
 				{
-					"xpos"				"0"
+					"xpos"				"3"
 					"ypos"				"25"
-					"wide"			"50"
+					"wide"			"44"
 					"textAlignment"		"center"
 					"font"				"Futura9"
 				}

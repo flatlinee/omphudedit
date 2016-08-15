@@ -36,13 +36,31 @@
 		"image"			"competitive/comp_background_tier001a"
 		"scaleImage"	"1"
 	}
+	
+	"CasualLabel"
+	{
+		"ControlName"	"Label"
+		"fieldName"		"CasualLabel"
+		"xpos"			"180"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"200"
+		"tall"			"50"
+		"labelText"		"casual"
+		"font"			"Futura32"
+		//"fgcolor_override"	"89 81 71 255"
+		"fgcolor_override"	"255 255 255 255"
+		"textAlignment"	"center"
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+	}
 
 	"GameModesContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GameModesContainer"
 		"xpos"			"180"
-		"ypos"			"r320"
+		"ypos"			"r305"
 		"zpos"			"100"
 		"wide"			"200"
 		"tall"			"190"
@@ -223,7 +241,7 @@
 	"SearchActiveGroupBox"
 	{
 		"xpos"		"180"
-		"ypos"		"r320"
+		"ypos"		"r305"
 		"wide"		"190"
 		"tall"		"190"
 		"proportionaltoparent"	"1"

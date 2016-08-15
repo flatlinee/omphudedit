@@ -1,6 +1,12 @@
 "GameMenu" [$WIN32]
 {
 
+	"OmphudLabel"
+	{
+		"label" "omphud" 
+		"command" "engine con_enable 1; engine showconsole; clear; echo omphud-redux | v1.2 | special thanks to: omp, omni, doodle, rays, zimmy"
+		"OnlyAtMenu" "0"
+	}
 	"FindAGameButton"
 	{
 		"label" "#MMenu_FindAGame" 

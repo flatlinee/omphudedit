@@ -399,11 +399,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-90"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c90"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"
@@ -595,15 +595,16 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
-				"font"			"DefaultSmall"
-				"xpos"			"0"
+				"font"			"Futura9"
+				"xpos"			"cs-0.5"
 				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"50"
+				"wide"			"f0"
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
+				"proportionaltoparent"	"1"
 				"labelText"		"%respawntime%"
 				"textAlignment"	"center"
 				//"fgcolor"		"235 226 202 255"
