@@ -2082,10 +2082,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PlayListContainer"
-		"xpos"			"-180"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"9999"
-		"wide"			"180"
+		"wide"			"0"
 		"tall"			"480"
 		"visible"		"1"
 
