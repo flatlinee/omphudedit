@@ -210,32 +210,46 @@ event WinPanel_NormalPos
 
 event MMenu_PlayList_Expand
 {
-	Animate CreateServerButton ypos 211  Spline 0 0.4
-	Animate CharacterSetupButton ypos 239  Spline 0 0.4
-	Animate GeneralStoreButton ypos 253  Spline 0 0.4
-	Animate ReplayBrowserButton ypos 281  Spline 0 0.4
-	Animate SteamWorkshopButton ypos 295  Spline 0 0.4
-	Animate SettingsButton ypos 323  Spline 0 0.4
-	Animate TF2SettingsButton ypos 337  Spline 0 0.4
-	Animate QuitButton ypos 365  Spline 0 0.4
-	Animate DisconnectButton ypos 365  Spline 0 0.4
-	Animate PlayListContainer Tall 260	 Spline	0.0 0.40
+	Animate OmphudLabel	  	  Xpos -180	 Spline	0.0 0.40
+	Animate FindAGameButton	  Xpos -100	 Spline	0.0 0.40
+	Animate CreateServerButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate CharacterSetupButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate GeneralStoreButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate ReplayBrowserButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate SteamWorkshopButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate SettingsButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate TF2SettingsButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate QuitButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate DisconnectButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate NewUserForumsButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate AchievementsButton  	  Xpos -100	 Spline	0.0 0.40
+	Animate CommentaryButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate CoachPlayersButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate ReportBugButton	  	  Xpos -100	 Spline	0.0 0.40
+	Animate PlayListContainer Xpos 0	 Spline	0.0 0.40
 
 	FireCommand 0 "soundentry Panel.SlideDown"
 }
 
 event MMenu_PlayList_Collapse
 {
-	Animate CreateServerButton ypos 191  Spline 0 0.4
-	Animate CharacterSetupButton ypos 219  Spline 0 0.4
-	Animate GeneralStoreButton ypos 233  Spline 0 0.4
-	Animate ReplayBrowserButton ypos 261  Spline 0 0.4
-	Animate SteamWorkshopButton ypos 275  Spline 0 0.4
-	Animate SettingsButton ypos 303  Spline 0 0.4
-	Animate TF2SettingsButton ypos 317  Spline 0 0.4
-	Animate QuitButton ypos 345  Spline 0 0.4
-	Animate DisconnectButton ypos 345  Spline 0 0.4
-	Animate PlayListContainer Tall 0 Spline 0 0.4
+	Animate OmphudLabel	  	  Xpos 0	 Spline	0.0 0.40
+	Animate FindAGameButton	  Xpos 40	 Spline	0.0 0.40
+	Animate CreateServerButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate CharacterSetupButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate GeneralStoreButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate ReplayBrowserButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate SteamWorkshopButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate SettingsButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate TF2SettingsButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate QuitButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate DisconnectButton	  	  Xpos 40	 Spline	0.0 0.40
+	Animate NewUserForumsButton	  	  Xpos 35	 Spline	0.0 0.40
+	Animate AchievementsButton  	  Xpos 57	 Spline	0.0 0.40
+	Animate CommentaryButton	  	  Xpos 79	 Spline	0.0 0.40
+	Animate CoachPlayersButton	  	  Xpos 101	 Spline	0.0 0.40
+	Animate ReportBugButton	  	  Xpos 123	 Spline	0.0 0.40
+	Animate PlayListContainer Xpos -180 Spline 0 0.4
 
 	FireCommand 0 "soundentry Panel.SlideUp"
 }
