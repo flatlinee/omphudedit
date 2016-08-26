@@ -222,6 +222,11 @@ event MMenu_PlayList_Collapse
 	FireCommand 0 "soundentry Panel.SlideUp"
 }
 
+event MMenu_PlayList_Collapse_Immediate
+{
+	Animate PlayListContainer Wide 0 Spline 0 0.4
+}
+
 event CasualCategory_Checkbox_Hide
 {
 	Animate Checkbutton xpos 350 Deaccel 0 0.2
