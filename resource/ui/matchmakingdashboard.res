@@ -44,8 +44,9 @@
 			"tall"			"f5"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"ReplayDefaultBorder"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
+			"bgcolor_override"	"18 22 25 255"
 		}
 
 		"OuterShadow"
@@ -120,7 +121,12 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
-
+				
+				
+				"defaultFgColor_override" "TanLight"
+				"armedFgColor_override" "TanLight"
+				"depressedFgColor_override" "TanLight"
+				"border_default"	"NoBorder"
 				"armedBgColor_override"		"LightRed"
 				"defaultBgColor_override"	"HUDRedTeamSolid"
 			}

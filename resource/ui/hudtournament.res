@@ -393,7 +393,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"220"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -421,7 +421,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c-100"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -449,7 +449,7 @@
 		}	
 		if_competitive
 		{
-			"xpos"			"c-100"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -481,7 +481,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c-100"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -516,7 +516,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c-100"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -548,7 +548,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c-98"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -580,7 +580,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c-50"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -615,7 +615,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -647,7 +647,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c50"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -679,7 +679,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c2"
+			"visible"		"0"
 		}
 		if_readymode
 		{
@@ -711,7 +711,7 @@
 		}
 		if_competitive
 		{
-			"xpos"			"c-100"
+			"visible"		"0"
 		}
 		if_readymode
 		{
