@@ -26,13 +26,6 @@
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
 	}
-	"VRModeButton"
-	{
-		"label" "#MMenu_VRMode_Activate"
-		"command" "engine vr_toggle"
-		"subimage" "glyph_vr"
-		"OnlyWhenVREnabled" "1"
-	}
 	"TrainingButton"
 	{
 		"label" "Training"
