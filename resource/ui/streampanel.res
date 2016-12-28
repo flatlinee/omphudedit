@@ -96,7 +96,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"OmpHighlights"
+		"fgcolor"		"198 198 198 255"
 	}
 
 	"TextDescriptionLabel"
@@ -114,7 +114,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"198 198 198 255"
 	}
 
 	"ViewerCountLabel"
@@ -132,7 +132,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"OmpMouseover"
+		"fgcolor"		"102 102 102 255"
 	}
 
 	"Stream_URLButton"

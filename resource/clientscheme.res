@@ -3808,14 +3808,14 @@ Scheme
 	// describes all the border types
 	Borders
 	{
-	  	ButtonHover
+ButtonHover
 		{
 			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
-					"color" "0 193 63 255"
+					"color" "100 65 164 255"
 					"offset" "0 0"
 				}
 			}
@@ -3824,7 +3824,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 193 63 255"
+					"color" "100 65 164 255"
 					"offset" "0 0"
 				}
 			}
@@ -3833,7 +3833,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 193 63 255"
+					"color" "100 65 164 255"
 					"offset" "0 0"
 				}
 			}
@@ -3842,7 +3842,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "0 193 63 255"
+					"color" "100 65 164 255"
 					"offset" "0 0"
 				}
 			}

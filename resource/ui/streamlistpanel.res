@@ -56,7 +56,7 @@
 		"tall"			"20"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 193 63 255"
+		"fillcolor"		"100 65 164 255"
 	}
 		
 	"CloseButton"
@@ -204,10 +204,10 @@
 		"proportionaltoparent"	"1"
 	}
 
-	"Stream_URLButton1"
+	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
-		"fieldName"		"Stream_URLButton1"
+		"fieldName"		"Stream_URLButton"
 		"xpos"			"75"
 		"ypos"			"280"
 		"wide"			"150"
@@ -231,12 +231,8 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 			
 		"defaultFgColor_override" "TanLight"
-		"armedFgColor_override" "TanLight"
-		"depressedFgColor_override" "TanLight"
-		"defaultBgColor_override" "18 22 25 255"
-		"armedBgColor_override"	  "50 50 50 255"
-		"depressedBgColor_override"	"50 50 50 255"
-		"paintborder"	"1"
-		"border"	"NoBorder"
+		"defaultBgColor_override" "13 17 20 255"
+		"armedBgColor_override"	  "33 37 40 255"
+		"depressedBgColor_override"	"33 37 40 255"
 	}	
 }
