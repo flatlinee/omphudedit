@@ -36,7 +36,7 @@
 		"ControlName"	"ImagePanel"
 		"fieldName"		"BackgroundHeader"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"25"
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"20"
@@ -99,6 +99,7 @@
 		"tabxfittotext"	"1"
 		"tabheight"		"34"
 		"transition_time" "0"
+		"yoffset" "24"
 		
 		"HeaderLine"
 		{
@@ -137,7 +138,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
 		"xpos"			"r25"
-		"ypos"			"0"
+		"ypos"			"24"
 		"zpos"			"9999"
 		"wide"			"20"
 		"tall"			"20"

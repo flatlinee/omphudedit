@@ -136,7 +136,27 @@
 		"ypos_minmode"	"60"
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
-	}		
+	}
+	"PlayerStatusHookBleedImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusHookBleedImage"
+		"xpos"			"50"
+		"ypos"			"90"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/bleed_drop_grapple"
+		"fgcolor"		"TanDark"
+		
+		"xpos_minmode"	"34"
+		"ypos_minmode"	"60"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
+	}
 	"PlayerStatusMilkImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -150,6 +170,26 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
+		"fgcolor"		"TanDark"
+		
+		"xpos_minmode"	"34"
+		"ypos_minmode"	"60"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
+	}
+	"PlayerStatusGasImage"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusGasImage"
+		"xpos"			"50"
+		"ypos"			"90"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/covered_in_gas"
 		"fgcolor"		"TanDark"
 		
 		"xpos_minmode"	"34"
@@ -588,5 +628,24 @@
 		"image"			"../Effects/powerup_supernova_hud"
 		"fgcolor"		"TanDark"
 	}
+	"PlayerStatusSlowed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"PlayerStatusSlowed"
+		"xpos"			"50"
+		"ypos"			"90"
+		"zpos"			"7"
+		"wide"			"32"
+		"tall"			"32"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"	
+		"image"			"../vgui/slowed"
+		"fgcolor"		"TanDark"
+		
+		"xpos_minmode"	"34"
+		"ypos_minmode"	"60"
+		"wide_minmode"	"24"
+		"tall_minmode"	"24"
+	}
 }
-

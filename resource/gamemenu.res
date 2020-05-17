@@ -1,18 +1,10 @@
 "GameMenu" [$WIN32]
 {
-
 	"OmphudLabel"
 	{
 		"label" "omphud" 
-		"command" "engine con_enable 1; engine showconsole; clear; echo omphud-redux | v1.2 | special thanks to: omp, omni, doodle, rays, zimmy"
+		"command" "engine showconsole"
 		"OnlyAtMenu" "0"
-	}
-	"FindAGameButton"
-	{
-		"label" "#MMenu_FindAGame" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu"	"0"
 	}
 	"ReplayBrowserButton"
 	{
@@ -25,13 +17,6 @@
 		"label" "Workshop"
 		"command" "engine OpenSteamWorkshopDialog"
 		"subimage" "glyph_steamworkshop"
-	}
-	"TrainingButton"
-	{
-		"label" "Training"
-		"command" "offlinepractice"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res

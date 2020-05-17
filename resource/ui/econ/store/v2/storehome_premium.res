@@ -18,8 +18,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MannCoImage"
-			"wide"			"420"
-			"tall"			"220"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"scaleImage"	"1"

@@ -169,27 +169,6 @@ event HudMedicChargedStop
 	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
 }
 
-event DamagedPlayer
-{
-	StopEvent HitMarker 0.0
-	RunEvent HitMarker 0.02
-}
-
-event HitMarker 
-{
-	//Animate	OmpCrosshairPlus		FgColor "255 0 0 255"		Accel 0.0 0.0
-	//Animate	OmpCrosshairPlus		FgColor "255 0 255 255"		Accel 0.2 0.0
-
-	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 0 255"		Accel 0.0 0.0
-	//Animate	OmpCrosshairPlusSmall	FgColor "255 0 255 255"		Accel 0.2 0.0
-
-	Animate	OmpCrosshairDot			FgColor "255 0 0 255"		Accel 0.0 0.0
-	Animate	OmpCrosshairDot			FgColor "0 255 0 255"		Accel 0.2 0.0
-
-	Animate	OmpCrosshairCircle		FgColor "255 0 0 255"		Accel 0.0 0.0
-	Animate	OmpCrosshairCircle		FgColor "0 255 0 255"	Accel 0.2 0.0
-}
-
 event TeamStatus_PlayerDead
 {
 	SetVisible DeathPanel  1 0

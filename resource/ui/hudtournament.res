@@ -397,7 +397,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"250"
+			"visible"		"0"
 		}
 	}
 	"HudTournamentBG1"
@@ -425,7 +425,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"250"
+			"visible"		"0"
 		}
 	}
 	"HudTournamentBG2"
@@ -453,7 +453,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"250"
+			"visible"		"0"
 		}
 	}
 	"TournamentLabel"
@@ -485,7 +485,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"250"
+			"visible"		"0"
 		}
 	}
 
@@ -520,7 +520,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"250"
+			"visible"		"0"
 		}
 	}
 	"TournamentBLUELabel"
@@ -552,7 +552,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"252"
+			"visible"		"0"
 		}
 	}
 	"TournamentBLUEStateLabel"
@@ -584,7 +584,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"300"
+			"visible"		"0"
 		}
 	}
 
@@ -619,7 +619,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"350"
+			"visible"		"0"
 		}
 	}
 	"TournamentREDLabel"
@@ -651,7 +651,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"400"
+			"visible"		"0"
 		}
 	}
 	"TournamentREDStateLabel"
@@ -683,7 +683,7 @@
 		}
 		if_readymode
 		{
-			"xpos"			"352"
+			"visible"		"0"
 		}
 	}
 	"TournamentConditionLabel"

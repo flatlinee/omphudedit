@@ -1,26 +1,7 @@
+#base "../scripts/Crosshairs/crosshairs.res"
+
 "Resource/HudLayout.res"
 {
-
-	//to enable crosshair, change visible to 1
-	//refer to crosshairs.png in root for labeltexts for xhairs
-	//also visit hudanimations_omp.txt to activate damage flash
-	
-	"OmpCrosshair"
-	{
-		"controlName" 	"CExLabel"
-		"fieldName" 	"OmpCrosshair"
-		"font" 			"Crosshairs32"
-		"fgcolor" 		"255 0 255 255"
-		"labelText" 	"m"
-		"xpos" 			"c-100"
-		"ypos" 			"c-103"
-		"wide" 			"200"
-		"tall" 			"200"
-		"visible" 		"0"
-		"enabled" 		"1"
-		"textAlignment" "center"
-	}
-
 	HudPlayerStatus
 	{
 		"fieldName" "HudPlayerStatus"
@@ -1352,10 +1333,10 @@
 		"tall"			"150"
 	}
 
-	"CTFKillStreakNotice"
+	"CTFStreakNotice"
 	{
-		"fieldName"		"CTFKillStreakNotice"
-		"xpos"			"0"			
+		"fieldName"		"CTFStreakNotice"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"640"
 		"tall"			"480"
@@ -1363,6 +1344,18 @@
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
 		"PaintBackgroundType"	"0" // rounded corners
+	}
+
+	CTFFlagCalloutPanel
+	{
+		"fieldName"		"CTFFlagCalloutPanel"
+		"visible" 		"0"
+		"enabled" 		"1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"wide"	 		"40"
+		"tall"	 		"40"
+		"priority"		"40"
 	}
 	
 	"HudMenuTauntSelection"
@@ -1412,18 +1405,6 @@
 		"tall"	"f0"
 	}
 
-	"QuestLogContainer"
-	{
-		"ControlName"		"EditablePanel"
-		"fieldName" 		"QuestLogContainer"
-		"visible" 		"1"
-		"enabled" 		"1"
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"	 		"f0"
-		"tall"	 		"f0"
-	}
-
 	"MatchMakingContainer"
 	{
 		"ControlName"		"EditablePanel"
@@ -1467,15 +1448,20 @@
 		"wide" "f0"
 		"tall" "f0"
 	}
-	HudTeamStatus
+	
+	"QueueHUDStatus"
 	{
-		"fieldName" "HudTeamStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos" "0"
-		"ypos" "0"
-		"zpos" "2"
-		"wide" "f0"
-		"tall" "f0"
+		"fieldName"				"QueueHUDStatus"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"rs1-5"
+		"ypos"					"1"
+		"zpos"					"1001"
+		"wide"					"200"
+		"tall"					"18"
+		"proportionaltoparent"	"1"
+		"keyboardinputenabled"	"1"
+		"mouseinputenabled"		"0"
+		"alpha"					"100"
 	}
 }
