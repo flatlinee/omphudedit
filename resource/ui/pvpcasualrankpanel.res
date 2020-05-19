@@ -22,6 +22,6 @@
 	"BGPanel"
 	{
 		"border"		"NoBorder"
-		"bgcolor_override"	"18 22 25 225"
+		"bgcolor_override"	"0 0 0 0"
 	}
 }
