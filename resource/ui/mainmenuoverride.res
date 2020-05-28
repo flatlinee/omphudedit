@@ -2189,6 +2189,67 @@
 		"fillcolor"		"13 17 20 255"
 	}
 	
+	"ConsoleButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"ConsoleButton"
+		"xpos"			"10"
+		"ypos"			"460"
+		"zpos"			"15"
+		"wide"			"18"
+		"tall"			"12"
+		"visible"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"18"
+			"tall"			"12"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"Sosa Verysmall"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+	
+			"default"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"		"37 109 27 255"
+			"depressedFgColor_override"	"37 109 27 255"
+			
+			"image_drawcolor"	"230 230 230 255"
+			"image_armedcolor"	"37 109 27 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"3"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			""
+				"scaleImage"	"1"
+			}			
+		}
+	}
+	
 	"NewUserForumsButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -2422,7 +2483,68 @@
 			"image"			"glyph_bug"
 			"scaleImage"	"1"
 		}				
-	}			
+	}	
+
+    "DemoUIButton"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldname"		"DemoUIButton"
+		"xpos"			"142"
+		"ypos"			"460"
+		"zpos"			"15"
+		"wide"			"18"
+		"tall"			"12"
+		"visible"		"1"
+		
+		"SubButton"
+		{
+			"ControlName"	"CExImageButton"
+			"fieldName"		"SubButton"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"18"
+			"tall"			"12"
+			"autoResize"	"0"
+			"pinCorner"		"3"
+			"visible"		"1"
+			"enabled"		"1"
+			"tabPosition"	"0"
+			"use_proportional_insets" "1"
+			"font"			"Sosa Verysmall"
+			"textAlignment"	"center"
+			"dulltext"		"0"
+			"brighttext"	"0"
+	
+			"default"		"0"
+			"sound_depressed"	"UI/buttonclick.wav"
+			"sound_released"	"UI/buttonclickrelease.wav"
+			
+			"border_default"	""
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override"	"255 255 255 255"
+			"armedFgColor_override"		"37 109 27 255"
+			"depressedFgColor_override"	"37 109 27 255"
+			
+			"image_drawcolor"	"230 230 230 255"
+			"image_armedcolor"	"37 109 27 255"
+			
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"3"
+				"zpos"			"1"
+				"wide"			"12"
+				"tall"			"12"
+				"visible"		"0"
+				"enabled"		"1"
+				"image"			""
+				"scaleImage"	"1"
+			}			
+		}
+	}	
 	
 	"BackToReplaysButton"
 	{

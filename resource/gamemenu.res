@@ -38,6 +38,20 @@
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
+	"ConsoleButton"
+	{
+		"label" "D"
+		"command" "engine showconsole"
+		"OnlyAtMenu" "0"
+		"tooltip" "Console"
+	}
+	"DemouiButton"
+	{
+		"label" "Q"
+		"command" "engine demoui"
+		"OnlyAtMenu" "0"
+		"tooltip" "DemoUI"
+	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
